@@ -2,14 +2,14 @@ import Countdown from "./Countdown";
 export default function Landing() {
   return (
     <>
-      <div className="bg-slate-950	">
+      <div className="bg-slate-950 ">
         {
           // <Countdown targetDate="2024-04-20T00:00:00" />
         }
 
-        <div className="relative isolate px-6 pt-14 lg:px-8">
+        <div className="relative isolate px-6 lg:px-8">
           <div
-            className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"
+            className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 "
             aria-hidden="true"
           >
             <div
@@ -20,7 +20,7 @@ export default function Landing() {
               }}
             />
           </div>
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+          <div className="mx-auto max-w-2xl py-16 sm:py-48 lg:py-56">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 text-base leading-6 text-gray-300 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Hosted on De Anza College Campus{" "}
