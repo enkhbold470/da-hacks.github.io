@@ -52,7 +52,7 @@ export default function Navbar() {
             <img className="h-16 w-auto" src="./dadevlogo.png" alt="" />
           </a>
         </div>
-        <div className="flex lg:hidden">
+        <div className="flex lg:hidden px-4">
           <button
             type="button"
             className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-100"
