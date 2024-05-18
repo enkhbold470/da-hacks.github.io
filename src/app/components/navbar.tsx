@@ -40,16 +40,16 @@ export default function Navbar() {
     <header
       className={`navbar ${
         show ? "sticky top-0 z-50" : " "
-      }   inset-x-0 top-0 z-50 bg-gradient-radial from-slate-950 to-green-950 `}
+      }   inset-x-0 top-0 z-50 backdrop-filter backdrop-blur-lg`}
     >
       <nav
-        className="flex items-center justify-between p-2 lg:px-8"
+        className="flex items-center justify-between p-1 lg:px-8"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
           <a href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">De Anza Hacks</span>
-            <img className="h-20 w-auto" src="./dadevlogo.png" alt="" />
+            <img className="h-16 w-auto" src="./dadevlogo.png" alt="" />
           </a>
         </div>
         <div className="flex lg:hidden">
