@@ -12,7 +12,7 @@ const people = [
   {
     name: "Yasmine",
     role: "Shirt Maker",
-    imageUrl: "./profile/yasmine.JPG",
+    imageUrl: "./profile/yasmine.jpg",
   },
   {
     name: "Enkhbold Ganbold",
@@ -22,27 +22,27 @@ const people = [
   {
     name: "Ming Zhe Chua",
     role: "Finance Group Rep",
-    imageUrl: "./profile/ming-zhe.JPG",
+    imageUrl: "./profile/ming-zhe.jpg",
   },
   {
     name: "Ryan Chu",
     role: "Logistics Group Rep",
-    imageUrl: "./profile/ryan.JPG",
+    imageUrl: "./profile/ryan.jpg",
   },
   {
     name: "Jin Gi Min",
     role: "Marketing and Outreach",
-    imageUrl: "./profile/jin-gi.JPG",
+    imageUrl: "./profile/jin-gi.jpg",
   },
   {
     name: "Victor Pham",
     role: "Marketing and Outreach Group Rep",
-    imageUrl: "./profile/victor.JPG",
+    imageUrl: "./profile/victor.jpg",
   },
   {
     name: "Madhav Shukla",
     role: "Marketing and Outreach",
-    imageUrl: "./profile/madhav.JPG",
+    imageUrl: "./profile/madhav.jpg",
   },
 
   // More people...
