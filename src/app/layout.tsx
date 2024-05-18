@@ -11,10 +11,6 @@ const openSans = Open_Sans({
   style: ["normal"],
 });
 
-export const metadata: Metadata = {
-  viewport: "width=device-width, initial-scale=1.0",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -41,8 +37,12 @@ export default function RootLayout({
           property="og:image"
           content="https://da-hacks.github.io/dadev-bg.jpg"
         />
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+        />
       </Head>
-      <body className={` ${openSans.className} bg-slate-950`}>{children}</body>
+      <body className={`${openSans.className} bg-slate-950`}>{children}</body>
     </html>
   );
 }
