@@ -5,44 +5,54 @@ const people = [
     imageUrl: "./profile/adi.JPG",
   },
   {
-    name: "Weishu Zhang",
-    role: "Tech/ Web Developer",
-    imageUrl: "./profile/weishu.jpg",
+    name: "Hassan Naboulsi",
+    role: "Director",
+    imageUrl: "./profile/hassan.png",
   },
   {
-    name: "Yasmine",
-    role: "Shirt Maker",
-    imageUrl: "./profile/yasmine.jpg",
-  },
-  {
-    name: "Enkhbold Ganbold",
-    role: "Tech/ Web Developer",
-    imageUrl: "./profile/inky.png",
-  },
-  {
-    name: "Ming Zhe Chua",
-    role: "Finance Group Rep",
-    imageUrl: "./profile/ming-zhe.jpg",
+    name: "Joshiro Lawrence",
+    role: "Tech/Website Committee Lead",
+    imageUrl: "./profile/joshi.jpeg",
   },
   {
     name: "Ryan Chu",
-    role: "Logistics Group Rep",
-    imageUrl: "./profile/ryan.jpg",
-  },
-  {
-    name: "Jin Gi Min",
-    role: "Marketing and Outreach",
-    imageUrl: "./profile/jin-gi.jpg",
+    role: "Logistics Committee Lead",
+    imageUrl: "./profile/ryan.JPG",
   },
   {
     name: "Victor Pham",
-    role: "Marketing and Outreach Group Rep",
-    imageUrl: "./profile/victor.jpg",
+    role: "Marketing and Outreach Committee Lead",
+    imageUrl: "./profile/victor.JPG",
+  },
+  {
+    name: "Ming Zhe Chua",
+    role: "Finance Committee Lead",
+    imageUrl: "./profile/ming-zhe.JPG",
+  },
+  {
+    name: "Enkhbold Ganbold",
+    role: "Tech/Website Committee",
+    imageUrl: "./profile/inky.png",
+  },
+  {
+    name: "Weishu Zhang",
+    role: "Tech/Website Committee",
+    imageUrl: "./profile/weishu.jpg",
+  },
+  {
+    name: "Jin Gi Min",
+    role: "Marketing and Outreach Committee",
+    imageUrl: "./profile/jin-gi.JPG",
   },
   {
     name: "Madhav Shukla",
-    role: "Marketing and Outreach",
-    imageUrl: "./profile/madhav.jpg",
+    role: "Marketing and Outreach Committee",
+    imageUrl: "./profile/madhav.JPG",
+  },
+  {
+    name: "Yasmine",
+    role: "Shirt Designer",
+    imageUrl: "./profile/yasmine.JPG",
   },
 
   // More people...

@@ -7,11 +7,11 @@ export default function Contact() {
         <span className="text-6xl text-white pb-4">Questions?</span>
         Contact us @{"  "} <br />
         <a
-          href="mailto:deanzadeveloper@gmail.com"
+          href="mailto:deanzadevelopers@gmail.com"
           target="_blank"
           className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400 "
         >
-          deanzadeveloper@gmail.com
+          deanzadevelopers@gmail.com
         </a>
       </h1>
 

@@ -30,7 +30,8 @@ export default function Faq() {
               <p>
                 DAHacks is from June 7 - 8 at De Anza College. Exact location on
                 campus will be announced soon, together with the schedule! This
-                is not an overnight event. if you have any questions, please{" "}
+                is not an overnight event. if you have any questions, please
+                email{" "}
                 <a
                   href="mailto:deanzadevelopers@gmail.com"
                   className="underline"
