@@ -75,7 +75,14 @@ export default function Faq() {
                 Don’t sweat! DAHacks welcomes hackers of all levels, whether you
                 are a coding prodigy or just dipping your toes into the world of
                 hacking. We will have workshops and mentors to help you along
-                the way, so you can learn, create, and have a blast!
+                the way, so you can learn, create, and have a blast! Here is to{" "}
+                <a
+                  href="https://github.com/da-hacks/awesome-projects-boilerplates"
+                  className="underline text-lg"
+                >
+                  hacking kit
+                </a>{" "}
+                get you started
               </p>
             </div>
           </details>
