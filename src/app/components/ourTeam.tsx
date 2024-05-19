@@ -17,17 +17,17 @@ const people = [
   {
     name: "Ryan Chu",
     role: "Logistics Committee Lead",
-    imageUrl: "./profile/ryan.JPG",
+    imageUrl: "./profile/ryan.jpg",
   },
   {
     name: "Victor Pham",
     role: "Marketing and Outreach Committee Lead",
-    imageUrl: "./profile/victor.JPG",
+    imageUrl: "./profile/victor.jpg",
   },
   {
     name: "Ming Zhe Chua",
     role: "Finance Committee Lead",
-    imageUrl: "./profile/ming-zhe.JPG",
+    imageUrl: "./profile/ming-zhe.jpg",
   },
   {
     name: "Enkhbold Ganbold",
@@ -42,17 +42,17 @@ const people = [
   {
     name: "Jin Gi Min",
     role: "Marketing and Outreach Committee",
-    imageUrl: "./profile/jin-gi.JPG",
+    imageUrl: "./profile/jin-gi.jpg",
   },
   {
     name: "Madhav Shukla",
     role: "Marketing and Outreach Committee",
-    imageUrl: "./profile/madhav.JPG",
+    imageUrl: "./profile/madhav.jpg",
   },
   {
     name: "Yasmine",
     role: "Shirt Designer",
-    imageUrl: "./profile/yasmine.JPG",
+    imageUrl: "./profile/yasmine.jpg",
   },
 
   // More people...
