@@ -77,6 +77,13 @@ export default function Navbar() {
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <div className="flex gap-12">
             <a
+              href="https://github.com/da-hacks/awesome-projects-boilerplates"
+              target="_blank"
+              className="flex items-center gap-2 text-base font-semibold text-gray-100"
+            >
+              💻New Hackers Kit
+            </a>
+            <a
               href="https://discord.com/invite/7MXUs72MvB"
               target="_blank"
               className="flex items-center gap-2 text-base font-semibold text-gray-100"
@@ -136,7 +143,13 @@ export default function Navbar() {
                   </a>
                 ))}
               </div>
-
+              <a
+                href="https://github.com/da-hacks/awesome-projects-boilerplates"
+                target="_blank"
+                className="-mx-3 block rounded-lg flex px-3 py-2 items-center gap-2 text-base font-semibold leading-7 text-gray-100 hover:bg-slate-400"
+              >
+                New Hackers Kit 💻
+              </a>
               <a
                 href="https://discord.com/invite/7MXUs72MvB"
                 target="_blank"
