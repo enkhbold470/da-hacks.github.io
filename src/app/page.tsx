@@ -4,7 +4,7 @@ import Sponsors from "./components/Sponsor";
 import Faq from "./components/faq";
 import Contact from "./components/contact";
 import Team from "./components/ourTeam";
-
+import Footer from "./components/Footer";
 export default function Page() {
   return (
     <>
@@ -14,9 +14,7 @@ export default function Page() {
       <Faq />
       <Contact />
       <Team />
-      {/* <div className="bg-gradient-radial from-white to-blue-500 h-screen flex items-center justify-center">
-        <h1 className="text-5xl font-bold text-black">Join De Anza Hacks</h1>
-      </div> */}
+      <Footer />
     </>
   );
 }
