@@ -47,7 +47,7 @@ export default function Landing() {
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-300">
                 Cupertino’s leading hackathon is back! Join us for our 3rd year
-                with 200+ hackers across the state! June 7 - 8, 2024
+                with 200+ hackers across the state! May 31st - June 1st, 2024
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
