@@ -11,7 +11,7 @@ const people = [
   },
   {
     name: "Joshiro Lawrence",
-    role: "Tech/Website Committee Lead",
+    role: "Tech Committee Lead",
     imageUrl: "./profile/joshi.jpeg",
   },
   {
@@ -31,12 +31,12 @@ const people = [
   },
   {
     name: "Enkhbold Ganbold",
-    role: "Tech/Website Committee",
+    role: "Tech Committee",
     imageUrl: "./profile/inky.png",
   },
   {
     name: "Weishu Zhang",
-    role: "Tech/Website Committee",
+    role: "Tech Committee",
     imageUrl: "./profile/weishu.jpg",
   },
   {
