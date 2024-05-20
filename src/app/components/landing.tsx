@@ -38,7 +38,7 @@ export default function Landing() {
             <div className="flex justify-center">
               <Countdown
                 //   className="xl:text-7xl lg:text-6xl text-8xl mb-4 font-CerealBD text-white"
-                targetDate="2024-06-07T00:00:00"
+                targetDate="2024-05-31T00:00:00"
               />
             </div>
             <div className="text-center">
@@ -47,7 +47,7 @@ export default function Landing() {
               </h1>
               <p className="mt-6 text-lg leading-8 text-gray-300">
                 Cupertino’s leading hackathon is back! Join us for our 3rd year
-                with 200+ hackers across the state! June 7 - 8, 2024
+                with 200+ hackers across the state! May 31st - June 1st, 2024
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
