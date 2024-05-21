@@ -1,6 +1,9 @@
 export default function SponsorLogos() {
   return (
-    <section className="py-24 bg-gradient-to-b from-slate-950 via-green-600 to-slate-950 ">
+    <section
+      id="sponsor"
+      className="py-24 bg-gradient-to-b from-slate-950 via-green-600 to-slate-950 "
+      >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-14 text-center">
           <h4 className="text-2xl text-gray-200 text-center font-medium">
