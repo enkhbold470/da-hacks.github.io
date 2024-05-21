@@ -40,6 +40,11 @@ const people = [
     imageUrl: "./profile/weishu.jpg",
   },
   {
+    name: "Yasmine",
+    role: "Logistics",
+    imageUrl: "./profile/yasmine.jpg",
+  },
+  {
     name: "Jin Gi Min",
     role: "Marketing and Outreach Committee",
     imageUrl: "./profile/jin-gi.jpg",
@@ -48,11 +53,6 @@ const people = [
     name: "Madhav Shukla",
     role: "Marketing and Outreach Committee",
     imageUrl: "./profile/madhav.jpg",
-  },
-  {
-    name: "Yasmine",
-    role: "Shirt Designer",
-    imageUrl: "./profile/yasmine.jpg",
   },
 
   // More people...
