@@ -28,7 +28,7 @@ export default function Faq() {
             </summary>
             <div className="px-4 pb-4">
               <p>
-                DAHacks is from June 7 - 8 at De Anza College. Exact location on
+                DAHacks is from May 31st - June 1st at De Anza College. Exact location on
                 campus will be announced soon, together with the schedule! This
                 is not an overnight event. if you have any questions, please
                 email{" "}
