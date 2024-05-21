@@ -40,6 +40,11 @@ const people = [
     imageUrl: "./profile/weishu.jpg",
   },
   {
+    name: "Yasmine",
+    role: "Logistics",
+    imageUrl: "./profile/yasmine.jpg",
+  },
+  {
     name: "Jin Gi Min",
     role: "Marketing and Outreach Committee",
     imageUrl: "./profile/jin-gi.jpg",
@@ -50,11 +55,20 @@ const people = [
     imageUrl: "./profile/madhav.jpg",
   },
   {
-    name: "Yasmine",
-    role: "Shirt Designer",
-    imageUrl: "./profile/yasmine.jpg",
+    name: "Collin Hargreaves",
+    role: "Logistics Committee",
+    imageUrl: "./profile/collin.jpg",
   },
-
+  {
+    name: "Iris Li",
+    role: "Logistics Committee",
+    imageUrl: "./profile/iris.jpg",
+  },
+  {
+    name: "Luca ",
+    role: "Logistics Committee",
+    imageUrl: "./profile/luca.png",
+  },
   // More people...
 ];
 
@@ -78,7 +92,7 @@ export default function Example() {
             <li key={person.name}>
               <div className="flex items-center gap-x-6">
                 <img
-                  className="h-24 w-24 rounded-full"
+                  className="h-32 w-32 rounded-full"
                   src={person.imageUrl}
                   alt=""
                 />
