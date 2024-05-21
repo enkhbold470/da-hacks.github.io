@@ -1,3 +1,4 @@
+
 export default function SponsorLogos() {
   return (
     <section
@@ -51,17 +52,46 @@ export default function SponsorLogos() {
             />
           </a>
           <a
-            href="https://deanza.edu"
+            href="https://open.spotify.com/"
             target="_blank"
             className="flex justify-center items-center"
           >
-            <svg
-              className="h-9"
-              viewBox="0 0 114 36"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g clip-path="url(#clip0_8562_69286)">
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 "
+              src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png"
+              alt="Spodify"
+              width={158}
+              height={48}
+            />
+          </a>
+          <a
+            href="https://www.interviewcake.com/"
+            target="_blank"
+            className="flex justify-center items-center"
+          >
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 "
+              src="cake_logo_white_on_blue.png"
+              alt="Interviewcake"
+              width={158}
+              height={48}
+            />
+          </a>
+          
+          <a
+            href="https://www.echo3d.com/"
+            target="_blank"
+            className="flex justify-center items-center"
+          >
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 "
+              src="https://asset.brandfetch.io/idTjBvylyO/idqIBNbIyX.png"
+              alt="Echo3D"
+              width={158}
+              height={48}
+            />
+          </a>
+              {/* <g clip-path="url(#clip0_8562_69286)">
                 <path
                   fill-rule="evenodd"
                   clip-rule="evenodd"
@@ -79,8 +109,6 @@ export default function SponsorLogos() {
                   />
                 </clipPath>
               </defs>
-            </svg>
-          </a>
           <a href="#" className="flex justify-center items-center">
             <svg
               className="h-9"
@@ -147,7 +175,7 @@ export default function SponsorLogos() {
                 fill="#0056FE"
               />
             </svg>
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

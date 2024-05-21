@@ -67,21 +67,21 @@ export default function Navbar() {
             <a
               key={item.name}
               href={item.href}
-              className="text-lg font-semibold leading-6 text-gray-100"
+              className="text-base font-semibold leading-6 text-gray-100"
             >
               {item.name}
             </a>
           ))}
         </div>
 
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <div className="flex gap-12">
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end p-2">
+          <div className="flex gap-2">
             <a
               href="https://github.com/da-hacks/awesome-projects-boilerplates"
               target="_blank"
-              className="flex items-center gap-2 text-base font-semibold text-gray-100"
+              className="flex items-center text-base font-semibold text-gray-100"
             >
-              💻New Hackers Kit
+              💻New Hacker kit
             </a>
             <a
               href="https://discord.com/invite/7MXUs72MvB"
