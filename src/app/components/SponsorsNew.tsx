@@ -52,14 +52,14 @@ export default function SponsorLogos() {
             />
           </a>
           <a
-            href="https://open.spotify.com/"
+            href="https://www.deanza.edu/dasg/"
             target="_blank"
             className="flex justify-center items-center"
           >
             <img
               className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 "
-              src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_White.png"
-              alt="Spodify"
+              src="https://www.deanza.edu/dasg/images/dasg-logo/dasg-logo-abreviation.png"
+              alt="Dasg"
               width={158}
               height={48}
             />
