@@ -41,18 +41,8 @@ const people = [
   },
   {
     name: "Yasmine",
-    role: "Logistics",
+    role: "Logistics Committee",
     imageUrl: "./profile/yasmine.jpg",
-  },
-  {
-    name: "Jin Gi Min",
-    role: "Marketing and Outreach Committee",
-    imageUrl: "./profile/jin-gi.jpg",
-  },
-  {
-    name: "Madhav Shukla",
-    role: "Marketing and Outreach Committee",
-    imageUrl: "./profile/madhav.jpg",
   },
   {
     name: "Collin Hargreaves",
@@ -68,6 +58,16 @@ const people = [
     name: "Luca ",
     role: "Logistics Committee",
     imageUrl: "./profile/luca.png",
+  },
+  {
+    name: "Jin Gi Min",
+    role: "Marketing and Outreach Committee",
+    imageUrl: "./profile/jin-gi.jpg",
+  },
+  {
+    name: "Madhav Shukla",
+    role: "Marketing and Outreach Committee",
+    imageUrl: "./profile/madhav.jpg",
   },
   // More people...
 ];
