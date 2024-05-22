@@ -1,10 +1,9 @@
-
 export default function SponsorLogos() {
   return (
     <section
       id="sponsor"
       className="py-24 bg-gradient-to-b from-slate-950 via-green-600 to-slate-950 "
-      >
+    >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mb-14 text-center">
           <h4 className="text-2xl text-gray-200 text-center font-medium">
@@ -77,7 +76,7 @@ export default function SponsorLogos() {
               height={48}
             />
           </a>
-          
+
           <a
             href="https://www.echo3d.com/"
             target="_blank"
@@ -91,7 +90,20 @@ export default function SponsorLogos() {
               height={48}
             />
           </a>
-              {/* <g clip-path="url(#clip0_8562_69286)">
+          <a
+            href="https://www.redbull.com/"
+            target="_blank"
+            className="flex justify-center items-center"
+          >
+            <img
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 "
+              src="https://upload.wikimedia.org/wikipedia/commons/9/91/Logo_of_Red_bull.svg"
+              alt="redbull"
+              width={158}
+              height={48}
+            />
+          </a>
+          {/* <g clip-path="url(#clip0_8562_69286)">
                 <path
                   fill-rule="evenodd"
                   clip-rule="evenodd"
