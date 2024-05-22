@@ -59,7 +59,7 @@ export default function Landing() {
                   APPLY NOW
                 </a>
                 <a
-                  href="mailto:deanzadevelopers@gmail.com"
+                  href="https://forms.gle/FdgvGQMTes8sCDkp9"
                   target="_blank"
                   rel="noreferrer"
                   className="text-lg font-semibold leading-6 text-gray-100"
