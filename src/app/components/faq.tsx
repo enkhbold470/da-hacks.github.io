@@ -28,15 +28,7 @@ export default function Faq() {
             </summary>
             <div className="px-4 pb-4">
               <p>
-                DAHacks is from Friday, May 31st from 10:30 AM - 9 PM to Saturday, June 1st from 9 AM - 6 PM at De Anza College in the Science Center Building SC1102. This is not an overnight event. if you have any questions, please
-                email{" "}
-                <a
-                  href="mailto:deanzadevelopers@gmail.com"
-                  className="underline"
-                >
-                  deanzadevelopers@gmail.com
-                </a>{" "}
-                for assistance.
+                DAHacks is from Friday, May 31st from 10:30 AM - 9 PM to Saturday, June 1st from 9 AM - 6 PM at De Anza College in the Science Center Building SC1102. This is not an overnight event. 
               </p>
             </div>
           </details>
@@ -85,10 +77,7 @@ export default function Faq() {
             </summary>
             <div className="px-4 pb-4">
               <p>
-                Teams can have up to 4 members. You can either form a team
-                before hand and come to the event or make teammates at the
-                event. We will be having a team making session. You can also
-                choose to be alone if you wish to!
+              Teams who want to borrow equipment must have between 3 and 4 members. Otherwise, teams can have between 1 and 4 members. You can either form a team beforehand and come to the event or make teammates at the event. We will be having a team-making session. Note that teams must be formed by the opening ceremony at 12 PM. 
               </p>
             </div>
           </details>
@@ -98,7 +87,7 @@ export default function Faq() {
             </summary>
             <div className="px-4 pb-4">
               <p>
-              Teams who want to borrow equipment must have between 3 and 4 members. Otherwise, teams can have between 1 and 4 members. You can either form a team beforehand and come to the event or make teammates at the event. We will be having a team-making session. Note that teams must be formed by the opening ceremony at 12 PM. 
+              No team? No problem! Leading up to our event, you can meet new people through our hacker Discord. We will have team formation events at the beginning of the hackathon geared towards helping you find people to work with.
               </p>
             </div>
           </details>
