@@ -64,7 +64,7 @@ export default function Landing() {
                   rel="noreferrer"
                   className="text-lg font-semibold leading-6 text-gray-100"
                 >
-                  Judge/Sponsor Form
+                  Judge/Mentor Form
                 </a>
               </div>
             </div>
