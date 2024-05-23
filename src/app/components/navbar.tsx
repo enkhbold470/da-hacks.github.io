@@ -75,7 +75,7 @@ export default function Navbar() {
         </div>
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end p-2">
-          <div className="flex gap-2">
+          <div className="flex gap-6">
             <a
               href="https://github.com/da-hacks/awesome-projects-boilerplates"
               target="_blank"
