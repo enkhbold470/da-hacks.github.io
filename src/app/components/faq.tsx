@@ -108,7 +108,7 @@ export default function Faq() {
           </details>
           <details>
             <summary className="py-2 outline-none cursor-pointer focus:underline">
-              Code of Conduct & Privacy Policy?
+              Where is your Code of Conduct and Privacy Policy?
             </summary>
             <div className="px-4 pb-4">
               <p>
