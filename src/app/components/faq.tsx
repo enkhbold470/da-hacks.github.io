@@ -71,11 +71,11 @@ export default function Faq() {
                 link to our{" "}
                 <a
                   href="https://github.com/da-hacks/awesome-projects-boilerplates"
-                  className="underline text-lg"
+                  className="underline text"
                 >
                   hacking kit
                 </a>{" "}
-                to get you started
+                to get you started.
               </p>
             </div>
           </details>
@@ -108,12 +108,12 @@ export default function Faq() {
           </details>
           <details>
             <summary className="py-2 outline-none cursor-pointer focus:underline">
-              Code of Conduct & Privacy Policy?
+              Where is your Code of Conduct and Privacy Policy?
             </summary>
             <div className="px-4 pb-4">
               <p>
                 Our Code of Conduct and Privacy Policy can be found{" "}
-                <a href="/policies" className="underline text-lg">
+                <a href="/policies" className="underline text">
                   here
                 </a>
               </p>

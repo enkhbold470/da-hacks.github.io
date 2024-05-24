@@ -55,9 +55,19 @@ const people = [
     imageUrl: "./profile/iris.jpg",
   },
   {
-    name: "Luca ",
+    name: "Luca",
     role: "Logistics Committee",
     imageUrl: "./profile/luca.png",
+  },
+  {
+    name: "Hannah Dinh",
+    role: "Logistics Committee",
+    imageUrl: "./profile/hannah.png",
+  },
+  {
+    name: "Jayden Lee",
+    role: "Logistics Committee",
+    imageUrl: "./profile/jayden.jpg",
   },
   {
     name: "Jin Gi Min",
