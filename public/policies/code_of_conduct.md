@@ -22,7 +22,7 @@ We expect participants to follow these rules at all DAHacks venues, online inter
 
 If at any point you feel uncomfortable or think there may be a potential violation of the code of conduct, please report it by emailing [deanzadevelopers@gmail.com](mailto:deanzadevelopers@gmail.com). We would also recommend reporting to a DAHacks organizer. If you are uncomfortable reporting your situation to one or more organizers, please ask for one of the co-directors (DAHacks co-presidents). All reporters have the right to remain anonymous.
 
-DAHacks reserves the right to revise, make exceptions to, or otherwise amend these policies in whole or in part. If you have any questions regarding these policies, please contact us by e-mail at [deanzadevelopers@gmail.com(mailto:deanzadevelopers@gmail.com).
+DAHacks reserves the right to revise, make exceptions to, or otherwise amend these policies in whole or in part. If you have any questions regarding these policies, please contact us by e-mail at [deanzadevelopers@gmail.com](mailto:deanzadevelopers@gmail.com).
 
 _Our code of conduct is based on the [Hack Code of Conduct.](http://hackcodeofconduct.org/)_
 
