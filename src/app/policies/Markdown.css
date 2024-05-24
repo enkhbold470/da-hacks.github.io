@@ -1,0 +1,35 @@
+.markdown-content {
+  font-family: "Arial, sans-serif";
+  line-height: 1.6;
+}
+
+.markdown-content h1 {
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+.markdown-content h2 {
+  font-size: 1.5em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.markdown-content h3 {
+  font-size: 1.17em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+}
+
+.markdown-content p {
+  margin: 1em 0;
+}
+
+.markdown-content a {
+  color: #007bff; /* Blue color for links */
+  text-decoration: none; /* Remove underline */
+}
+
+.markdown-content a:hover {
+  text-decoration: underline; /* Underline on hover */
+}

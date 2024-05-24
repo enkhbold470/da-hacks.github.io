@@ -14,13 +14,17 @@
     "headlessui": "^0.0.0",
     "heroicons": "^2.1.3",
     "i": "^0.3.7",
+    "marked": "^12.0.2",
     "next": "14.2.3",
     "npm": "^10.7.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-markdown": "^9.0.1",
+    "react-marked": "^0.3.1",
     "react-media-hook": "^0.5.0",
     "react-router-dom": "^6.23.1",
     "react-router-hash-link": "^2.4.3",
+    "remark-gfm": "^4.0.0",
     "sass": "^1.77.1",
     "styled-components": "^6.1.11"
   },
@@ -31,6 +35,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.3",
     "postcss": "^8",
+    "raw-loader": "^4.0.2",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
