@@ -5,10 +5,10 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Sponsors", href: "/#sponsor" },
-  { name: "FAQ", href: "/#faqs" },
-  { name: "Contact", href: "/#contact" },
-  { name: "Our Team", href: "/#team" },
+  { name: "Sponsors", href: "https://deanzahacks.com/#sponsor" },
+  { name: "FAQ", href: "https://deanzahacks.com/#faqs" },
+  { name: "Contact", href: "https://deanzahacks.com/#contact" },
+  { name: "Our Team", href: "https://deanzahacks.com/#team" },
 ];
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
