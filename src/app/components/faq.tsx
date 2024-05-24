@@ -28,7 +28,9 @@ export default function Faq() {
             </summary>
             <div className="px-4 pb-4">
               <p>
-                DAHacks is from Friday, May 31st from 10:30 AM - 9 PM to Saturday, June 1st from 9 AM - 6 PM at De Anza College in the Science Center Building SC1102. This is not an overnight event. 
+                DAHacks is from Friday, May 31st from 10:30 AM - 9 PM to
+                Saturday, June 1st from 9 AM - 6 PM at De Anza College in the
+                Science Center Building SC1102. This is not an overnight event.
               </p>
             </div>
           </details>
@@ -50,17 +52,23 @@ export default function Faq() {
             </summary>
             <div className="px-4 pb-4">
               <p>
-              There will be prizes for First Place ($200), Second Place ($100), and Third Place ($75). There are also other special prizes!{" "}
+                There will be prizes for First Place ($200), Second Place
+                ($100), and Third Place ($75). There are also other special
+                prizes!{" "}
               </p>
             </div>
           </details>
           <details>
             <summary className="py-2 outline-none cursor-pointer focus:underline">
-            What if I have never hacked before?
+              What if I have never hacked before?
             </summary>
             <div className="px-4 pb-4">
               <p>
-              Don’t sweat! DAHacks welcomes hackers of all levels, whether you are a coding prodigy or just dipping your toes into the world of hacking. We will have workshops and mentors to help you along the way, so you can learn, create, and have a blast! Here is a link to our{" "}
+                Don’t sweat! DAHacks welcomes hackers of all levels, whether you
+                are a coding prodigy or just dipping your toes into the world of
+                hacking. We will have workshops and mentors to help you along
+                the way, so you can learn, create, and have a blast! Here is a
+                link to our{" "}
                 <a
                   href="https://github.com/da-hacks/awesome-projects-boilerplates"
                   className="underline text-lg"
@@ -77,7 +85,11 @@ export default function Faq() {
             </summary>
             <div className="px-4 pb-4">
               <p>
-              Teams who want to borrow equipment must have between 3 and 4 members. Otherwise, teams can have between 1 and 4 members. You can either form a team beforehand and come to the event or make teammates at the event. We will be having a team-making session. Note that teams must be formed by the opening ceremony at 12 PM. 
+                Teams who want to borrow equipment must have between 3 and 4
+                members. Otherwise, teams can have between 1 and 4 members. You
+                can either form a team beforehand and come to the event or make
+                teammates at the event. We will be having a team-making session.
+                Note that teams must be formed by the opening ceremony at 12 PM.
               </p>
             </div>
           </details>
@@ -87,7 +99,23 @@ export default function Faq() {
             </summary>
             <div className="px-4 pb-4">
               <p>
-              No team? No problem! Leading up to our event, you can meet new people through our hacker Discord. We will have team formation events at the beginning of the hackathon geared towards helping you find people to work with.
+                No team? No problem! Leading up to our event, you can meet new
+                people through our hacker Discord. We will have team formation
+                events at the beginning of the hackathon geared towards helping
+                you find people to work with.
+              </p>
+            </div>
+          </details>
+          <details>
+            <summary className="py-2 outline-none cursor-pointer focus:underline">
+              Code of Conduct & Privacy Policy?
+            </summary>
+            <div className="px-4 pb-4">
+              <p>
+                Our Code of Conduct and Privacy Policy can be found{" "}
+                <a href="/policies" className="underline text-lg">
+                  here
+                </a>
               </p>
             </div>
           </details>

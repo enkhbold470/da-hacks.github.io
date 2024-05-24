@@ -4,6 +4,9 @@ export default function Footer() {
       <h1 className="text-md text-white text-center">
         Made with ❤️ by the DAHacks team in Cupertino, CA
       </h1>
+      <h2 className="text-sm text-blue-500 text-center">
+        <a href="/policies">Policy & Code of Conduct</a>
+      </h2>
     </div>
   );
 }
