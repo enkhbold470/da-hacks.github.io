@@ -36,6 +36,16 @@ export default function Faq() {
           </details>
           <details>
             <summary className="py-2 outline-none cursor-pointer focus:underline">
+              What is the theme of this event?
+            </summary>
+            <div className="px-4 pb-4">
+              <p>
+                For this hackathon, the sole theme is engineering, with special emphasis on hardware!
+              </p>
+            </div>
+          </details>
+          <details>
+            <summary className="py-2 outline-none cursor-pointer focus:underline">
               Does it cost money to attend?
             </summary>
             <div className="px-4 pb-4">
@@ -116,6 +126,7 @@ export default function Faq() {
                 <a href="/policies" className="underline text">
                   here
                 </a>
+                .
               </p>
             </div>
           </details>
