@@ -81,7 +81,7 @@ export default function Navbar() {
               target="_blank"
               className="flex items-center text-base font-semibold text-gray-100"
             >
-              💻New Hacker kit
+              💻New Hacker Kit
             </a>
             <a
               href="https://discord.com/invite/7MXUs72MvB"
