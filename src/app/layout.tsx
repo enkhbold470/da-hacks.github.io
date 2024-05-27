@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
+import type { Viewport } from "next";
+
 import Head from "next/head";
-import Script from "next/script";
 
 import { Inter, Open_Sans } from "next/font/google";
 import "./globals.css";
@@ -10,7 +11,33 @@ const openSans = Open_Sans({
   weight: ["300"],
   style: ["normal"],
 });
+export async function generateMetadata() {
+  return {
+    title: "De Anza Hacks V2.5 2024",
+    description:
+      "Cupertino’s leading hackathon is back! Join us for our 3rd year with 200+ hackers across the state!",
+    applicationName: "De Anza Hacks V2.5 2024",
+    keywords: ["De Anza Hacks", "Hackathon", "Cupertino", "California"],
+    generator: "De Anza Hacks",
 
+    robots: "index, follow",
+    icons: [
+      "./favicon_io/android-chrome-192x192.png",
+      "./favicon_io/android-chrome-512x512.png",
+      "favicon-16x16.png",
+      "favicon-32x32.png",
+      "apple-touch-icon.png",
+    ],
+  };
+}
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+  // Also supported by less commonly used
+  // interactiveWidget: 'resizes-visual',
+};
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -18,30 +45,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <title>De Anza Hacks V2.5 2024</title>
-        <meta
-          name="description"
-          content="Cupertino’s leading hackathon is back! Join us for our 3rd year with 200+ hackers across the state!"
-          key="desc"
-        />
-        <meta
-          property="og:title"
-          content="De Anza Hacks Cupertino’s leading hackathon is back!"
-        />
-        <meta
-          property="og:description"
-          content="Join us for our De Anza Hacks with 200+ hackers across the state!"
-        />
-        <meta
-          property="og:image"
-          content="https://da-hacks.github.io/dadev-bg.jpg"
-        />
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-        />
-      </Head>
       <body className={`${openSans.className} bg-slate-950`}>{children}</body>
     </html>
   );
