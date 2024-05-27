@@ -90,19 +90,6 @@ export default function SponsorLogos() {
               height={48}
             />
           </a>
-          <a
-            href="https://www.redbull.com/"
-            target="_blank"
-            className="flex justify-center items-center"
-          >
-            <img
-              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1 "
-              src="https://upload.wikimedia.org/wikipedia/commons/9/91/Logo_of_Red_bull.svg"
-              alt="redbull"
-              width={158}
-              height={48}
-            />
-          </a>
           {/* <g clip-path="url(#clip0_8562_69286)">
                 <path
                   fill-rule="evenodd"
