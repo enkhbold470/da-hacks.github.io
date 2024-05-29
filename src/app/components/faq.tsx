@@ -62,9 +62,7 @@ export default function Faq() {
             </summary>
             <div className="px-4 pb-4">
               <p>
-                There will be prizes for First Place ($200), Second Place
-                ($100), and Third Place ($75). There are also other special
-                prizes!{" "}
+                Yes! There is a total prize pool of over $2000!
               </p>
             </div>
           </details>
