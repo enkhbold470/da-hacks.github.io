@@ -35,12 +35,22 @@ export default function Landing() {
                 </a>
               </div>
             </div>
-            <div className="flex justify-center">
+
+            <div className="flex flex-col items-center gap-2">
+              <a
+                href="https://deanzahacks.com/live-schedule"
+                target="_blank"
+                rel="noreferrer"
+                className="rounded-md bg-white px-5 py-3.5 text-base lg:text-2xl font-bold text-black shadow-sm hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+              >
+                Hack Schedule
+              </a>
               <Countdown
                 //   className="xl:text-7xl lg:text-6xl text-8xl mb-4 font-CerealBD text-white"
                 targetDate="2024-05-31T13:00:00"
               />
             </div>
+
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-6xl">
                 De Anza Hacks V2.5
