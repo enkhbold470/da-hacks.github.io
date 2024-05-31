@@ -128,6 +128,20 @@ export default function Faq() {
               </p>
             </div>
           </details>
+          <details>
+            <summary className="py-2 outline-none cursor-pointer focus:underline">
+              Where is the Hacker's Guide?
+            </summary>
+            <div className="px-4 pb-4">
+              <p>
+                The Hacker's Guide can be found{" "}
+                <a href="https://docs.google.com/document/d/e/2PACX-1vQmDCK49N5kSuBpJ9Dw5KhlMqriV16uB-_2R0-PrGmk3n3X-dB9Prqh02WYxIBSJoETj7I4buMfd84t/pub" className="underline text">
+                  here
+                </a>
+                .
+              </p>
+            </div>
+          </details>
         </div>
       </div>
     </section>

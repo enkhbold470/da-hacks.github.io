@@ -79,6 +79,11 @@ const people = [
     role: "Marketing and Outreach Committee",
     imageUrl: "./profile/madhav.jpg",
   },
+  {
+    name: "Katia Bravo",
+    role: "Marketing and Outreach Committee",
+    imageUrl: "./profile/katia.jpg",
+  },
   // More people...
 ];
 
