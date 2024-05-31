@@ -37,6 +37,10 @@ export default function Landing() {
             </div>
 
             <div className="flex flex-col items-center gap-2">
+              {/* <Countdown
+                //   className="xl:text-7xl lg:text-6xl text-8xl mb-4 font-CerealBD text-white"
+                targetDate="2024-05-31T13:00:00"
+              /> */}
               <a
                 href="https://deanzahacks.com/live-schedule"
                 target="_blank"
@@ -45,16 +49,13 @@ export default function Landing() {
               >
                 Hack Schedule
               </a>
-              <Countdown
-                //   className="xl:text-7xl lg:text-6xl text-8xl mb-4 font-CerealBD text-white"
-                targetDate="2024-05-31T13:00:00"
-              />
             </div>
 
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-6xl">
                 De Anza Hacks V2.5
               </h1>
+
               <p className="mt-6 text-lg leading-8 text-gray-300">
                 Cupertino’s leading hackathon is back! Join us for our 3rd year
                 with 200+ hackers across the state! May 31st - June 1st, 2024

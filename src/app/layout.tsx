@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { Viewport } from "next";
+import Script from "next/script";
 
 import Head from "next/head";
 
@@ -45,6 +46,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-QH905KTVTL"
+        />
+        <Script id="google-analytics">
+          {`
+        
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QH905KTVTL');
+      `}
+        </Script>
+      </head>
       <body className={`${openSans.className} bg-slate-950`}>{children}</body>
     </html>
   );

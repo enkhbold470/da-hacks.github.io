@@ -40,7 +40,8 @@ export default function Faq() {
             </summary>
             <div className="px-4 pb-4">
               <p>
-                For this hackathon, the sole theme is engineering, with special emphasis on hardware!
+                For this hackathon, the sole theme is engineering, with special
+                emphasis on hardware!
               </p>
             </div>
           </details>
@@ -61,9 +62,7 @@ export default function Faq() {
               Are there prizes?
             </summary>
             <div className="px-4 pb-4">
-              <p>
-                Yes! There is a total prize pool of over $2000!
-              </p>
+              <p>Yes! There is a total prize pool of over $2000!</p>
             </div>
           </details>
           <details>
@@ -130,15 +129,19 @@ export default function Faq() {
           </details>
           <details>
             <summary className="py-2 outline-none cursor-pointer focus:underline">
-              Where is the Hacker's Guide?
+              Where is the Hacker&apos;s Guide?
             </summary>
             <div className="px-4 pb-4">
               <p>
-                The Hacker's Guide can be found{" "}
-                <a href="https://docs.google.com/document/d/e/2PACX-1vQmDCK49N5kSuBpJ9Dw5KhlMqriV16uB-_2R0-PrGmk3n3X-dB9Prqh02WYxIBSJoETj7I4buMfd84t/pub" className="underline text">
-                  here
+                The Hacker&apos;s Guide can be found{" "}
+                <a
+                  href="https://docs.google.com/document/d/e/2PACX-1vQmDCK49N5kSuBpJ9Dw5KhlMqriV16uB-_2R0-PrGmk3n3X-dB9Prqh02WYxIBSJoETj7I4buMfd84t/pub"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline text"
+                >
+                  here.
                 </a>
-                .
               </p>
             </div>
           </details>
