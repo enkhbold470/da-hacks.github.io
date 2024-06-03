@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="w-full py-10 flex flex-col relative overflow-hidden border-b">
+    <div className="w-full py-10 flex flex-col relative overflow-hidden">
       <h1 className="text-md text-white text-center">
         Made with ❤️ by the DAHacks team in Cupertino, CA
       </h1>
