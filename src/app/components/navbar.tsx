@@ -5,10 +5,10 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
   { name: "Home", href: "/" },
-  { name: "Sponsors", href: "https://deanzahacks.com/#sponsor" },
-  { name: "FAQ", href: "https://deanzahacks.com/#faqs" },
-  { name: "Contact", href: "https://deanzahacks.com/#contact" },
-  { name: "Our Team", href: "https://deanzahacks.com/#team" },
+  // { name: "Sponsors", href: "https://deanzahacks.com/#sponsor" },
+  // { name: "FAQ", href: "https://deanzahacks.com/#faqs" },
+  { name: "Contact", href: "#contact" },
+  { name: "DAHacks 2.5", href: "https://deanzahacks.com/Spring2024" },
 ];
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -55,7 +55,7 @@ export default function Navbar() {
         <div className="flex lg:hidden px-4">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-100"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-[#FFC60B]"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -67,7 +67,8 @@ export default function Navbar() {
             <a
               key={item.name}
               href={item.href}
-              className="text-base font-semibold leading-6 text-gray-100"
+              target={item.href.startsWith("http") ? "_blank" : "_self"}
+              className="text-base font-semibold leading-6 text-[#FFC60B]"
             >
               {item.name}
             </a>
@@ -79,14 +80,14 @@ export default function Navbar() {
             <a
               href="https://github.com/da-hacks/awesome-projects-boilerplates"
               target="_blank"
-              className="flex items-center text-base font-semibold text-gray-100"
+              className="flex items-center text-base font-semibold text-[#FFC60B]"
             >
               💻New Hacker Kit
             </a>
             <a
               href="https://discord.com/invite/V225BEAD9S"
               target="_blank"
-              className="flex items-center gap-2 text-base font-semibold text-gray-100"
+              className="flex items-center gap-2 text-base font-semibold text-[#FFC60B]"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -99,13 +100,13 @@ export default function Navbar() {
               </svg>
               Discord
             </a>
-            <a
+            {/* <a
               href="https://forms.gle/ErSuEtGjBr3v92X59"
               target="_blank"
-              className="text-base font-semibold leading-6 text-gray-100 border-2 border-green-500 hover:bg-green-500 rounded-md px-4 py-2"
+              className="text-base font-semibold leading-6 text-[#FFC60B] border-2 border-green-500 hover:bg-green-500 rounded-md px-4 py-2"
             >
               APPLY NOW
-            </a>
+            </a> */}
           </div>
         </div>
       </nav>
@@ -115,7 +116,7 @@ export default function Navbar() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-50" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-slate-950	 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-gray-500	 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">De Anza Hacks</span>
@@ -137,7 +138,7 @@ export default function Navbar() {
                   <a
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-100 hover:bg-slate-400"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-[#FFC60B] hover:bg-slate-400"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {item.name}
@@ -147,14 +148,14 @@ export default function Navbar() {
               <a
                 href="https://github.com/da-hacks/awesome-projects-boilerplates"
                 target="_blank"
-                className="-mx-3 block rounded-lg flex px-3 py-2 items-center gap-2 text-base font-semibold leading-7 text-gray-100 hover:bg-slate-400"
+                className="-mx-3 block rounded-lg flex px-3 py-2 items-center gap-2 text-base font-semibold leading-7 text-[#FFC60B] hover:bg-slate-400"
               >
                 New Hackers Kit 💻
               </a>
               <a
                 href="https://discord.com/invite/V225BEAD9S"
                 target="_blank"
-                className="-mx-3 block rounded-lg flex px-3 py-2 items-center gap-2 text-base font-semibold leading-7 text-gray-100 hover:bg-slate-400"
+                className="-mx-3 block rounded-lg flex px-3 py-2 items-center gap-2 text-base font-semibold leading-7 text-[#FFC60B] hover:bg-slate-400"
               >
                 Discord
                 <svg
@@ -169,12 +170,12 @@ export default function Navbar() {
               </a>
 
               <div className="py-6">
-                <a
+                {/* <a
                   href="https://forms.gle/ErSuEtGjBr3v92X59"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-100 hover:bg-slate-400"
+                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-[#FFC60B] hover:bg-slate-400"
                 >
                   Apply
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

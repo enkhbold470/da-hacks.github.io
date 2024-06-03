@@ -1,22 +1,22 @@
 export default function Contact() {
   return (
-    <div id="contact" className="py-32 bg-slate-950 flex-col items-center">
+    <div id="contact" className="py-32 bg-da_red flex-col items-center">
       {/*email */}
 
-      <h1 className="flex flex-col text-2xl gap-2 text-gray-500 dark:text-gray-400 items-center">
-        <span className="text-4xl text-white pb-4">Questions?</span>
+      <h1 className="flex flex-col text-2xl gap-2 text-da_gold  items-center">
+        <span className="text-4xl text-da_gold pb-4">Questions?</span>
         Contact us @{"  "} <br />
         <a
           href="mailto:deanzadevelopers@gmail.com"
           target="_blank"
-          className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400 "
+          className="text-gray-500 hover:text-gray-900 dark:hover:text-da_gold dark:text-gray-400 "
         >
           deanzadevelopers@gmail.com
         </a>
       </h1>
 
       {/*social */}
-      <span className="flex justify-center mt-20 text-4xl text-white">
+      <span className="flex justify-center mt-20 text-4xl text-da_gold">
         Socials
       </span>
 
@@ -25,7 +25,7 @@ export default function Contact() {
           <a
             href="https://www.facebook.com/deanzacollege"
             target="_blank"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+            className="text-gray-500 hover:text-gray-900 dark:hover:text-da_gold dark:text-gray-400"
           >
             <svg
               className="w-10 h-10"
@@ -45,7 +45,7 @@ export default function Contact() {
           <a
             href="https://www.instagram.com/deanzahacks/"
             target="_blank"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+            className="text-gray-500 hover:text-gray-900 dark:hover:text-da_gold dark:text-gray-400"
           >
             <svg
               className="w-10 h-10"
@@ -65,7 +65,7 @@ export default function Contact() {
           <a
             href="https://x.com/deanza_college"
             target="_blank"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+            className="text-gray-500 hover:text-gray-900 dark:hover:text-da_gold dark:text-gray-400"
           >
             <svg
               className="w-10 h-10"
@@ -81,7 +81,7 @@ export default function Contact() {
           <a
             href="https://github.com/da-hacks"
             target="_blank"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+            className="text-gray-500 hover:text-gray-900 dark:hover:text-da_gold dark:text-gray-400"
           >
             <svg
               className="w-10 h-10"
@@ -101,7 +101,7 @@ export default function Contact() {
           <a
             href="https://discord.gg/uWBcwcRbTr"
             target="_blank"
-            className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
+            className="text-gray-500 hover:text-gray-900 dark:hover:text-da_gold dark:text-gray-400"
           >
             <svg
               className="w-10 h-10"
