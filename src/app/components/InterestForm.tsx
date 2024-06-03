@@ -55,7 +55,8 @@ export default function InterestForm() {
 
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-6xl">
-                DAHacks 2024 Fall coming soon!
+                DAHacks 2024 Fall <br />
+                Coming soon!
               </h1>
 
               <p className="mt-6 text-lg leading-8 text-gray-300">
