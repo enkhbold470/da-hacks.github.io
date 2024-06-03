@@ -4,7 +4,7 @@ export default function Contact() {
       {/*email */}
 
       <h1 className="flex flex-col text-2xl gap-2 text-gray-500 dark:text-gray-400 items-center">
-        <span className="text-6xl text-white pb-4">Questions?</span>
+        <span className="text-4xl text-white pb-4">Questions?</span>
         Contact us @{"  "} <br />
         <a
           href="mailto:deanzadevelopers@gmail.com"
@@ -99,7 +99,7 @@ export default function Contact() {
         </li>
         <li>
           <a
-            href="https://discord.gg/MH76AMcf"
+            href="https://discord.gg/uWBcwcRbTr"
             target="_blank"
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white dark:text-gray-400"
           >

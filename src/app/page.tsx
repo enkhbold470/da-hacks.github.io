@@ -5,16 +5,18 @@ import Contact from "./components/contact";
 import Team from "./components/ourTeam";
 import Footer from "./components/Footer";
 import SponsorLogos from "./components/SponsorsNew";
+import InterestForm from "./components/InterestForm";
 export default function Page() {
   return (
     <>
-      <Navbar />
-      <Landing />
+      {/* <Navbar /> */}
+      {/* <Landing /> */}
+      <InterestForm />
       {/* <Sponsors /> */}
-      <SponsorLogos />
-      <Faq />
+      {/* <SponsorLogos /> */}
+      {/* <Faq /> */}
       <Contact />
-      <Team />
+      {/* <Team /> */}
       <Footer />
     </>
   );
