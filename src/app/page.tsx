@@ -6,6 +6,7 @@ import Team from "./components/ourTeam";
 import Footer from "./components/Footer";
 import SponsorLogos from "./components/SponsorsNew";
 import InterestForm from "./components/InterestForm";
+import SubscribeNewsletter from "./components/SubscribeNewsletter";
 export default function Page() {
   return (
     <>
@@ -18,6 +19,7 @@ export default function Page() {
       <Contact />
       {/* <Team /> */}
       <Footer />
+      <SubscribeNewsletter />
     </>
   );
 }
