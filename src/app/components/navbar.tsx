@@ -8,7 +8,7 @@ const navigation = [
   // { name: "Sponsors", href: "https://deanzahacks.com/#sponsor" },
   // { name: "FAQ", href: "https://deanzahacks.com/#faqs" },
   { name: "Contact", href: "#contact" },
-  { name: "DAHacks 2.5", href: "https://deanzahacks.com/Spring2024" },
+  // { name: "DAHacks 2.5", href: "https://deanzahacks.com/Spring2024" },
 ];
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
