@@ -5,6 +5,7 @@ import Script from "next/script";
 import Head from "next/head";
 
 import { Inter, Open_Sans } from "next/font/google";
+// import localFont from 'next/font/local';
 import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 const openSans = Open_Sans({
@@ -12,6 +13,7 @@ const openSans = Open_Sans({
   weight: ["300"],
   style: ["normal"],
 });
+// const karmaticArcade = localFont({ src: '../../public/fonts/ka.ttf' });
 export async function generateMetadata() {
   return {
     title: "DAHacks 2024 Fall",
