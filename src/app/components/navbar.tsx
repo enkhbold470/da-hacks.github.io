@@ -6,7 +6,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = [
   { name: "Home", href: "/" },
   // { name: "Sponsors", href: "https://deanzahacks.com/#sponsor" },
-  // { name: "FAQ", href: "https://deanzahacks.com/#faqs" },
+  { name: "FAQ", href: "#faqs" },
   { name: "Contact", href: "#contact" },
   // { name: "DAHacks 2.5", href: "https://deanzahacks.com/Spring2024" },
 ];
