@@ -9,6 +9,7 @@ const navigation = [
   { name: "FAQ", href: "#faqs" },
   { name: "Contact", href: "#contact" },
   // { name: "DAHacks 2.5", href: "https://deanzahacks.com/Spring2024" },
+  { name: "Our Team", href: "#team" },
 ];
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
