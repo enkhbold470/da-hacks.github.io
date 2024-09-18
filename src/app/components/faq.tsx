@@ -72,7 +72,7 @@ export default function Faq() {
               Are there prizes?
             </summary>
             <div className="px-4 pb-4">
-              <p>Yes! There is a total prize pool of over $2000 from our sponsors!</p>
+              <p>Yes! There is a total prize pool of over $15,000 from our sponsors!</p>
             </div>
           </details>
           <details>
