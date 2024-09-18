@@ -2,7 +2,7 @@ const people = [
   {
     name: "Aditya Sharma",
     role: "Director",
-    imageUrl: "./profile/F2024/adi.JPG",
+    imageUrl: "./profile/F2024/adi.jpg",
   },
   // {
   //   name: "Hassan Naboulsi",
