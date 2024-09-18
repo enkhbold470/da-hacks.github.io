@@ -2,87 +2,67 @@ const people = [
   {
     name: "Aditya Sharma",
     role: "Director",
-    imageUrl: "./profile/adi.JPG",
+    imageUrl: "./profile/F2024/adit.JPG",
   },
-  {
-    name: "Hassan Naboulsi",
-    role: "Director",
-    imageUrl: "./profile/hassan.png",
-  },
-  {
-    name: "Joshiro Lawrence",
-    role: "Tech Committee Lead",
-    imageUrl: "./profile/joshi.jpeg",
-  },
+  // {
+  //   name: "Hassan Naboulsi",
+  //   role: "Director",
+  //   imageUrl: "./profile/hassan.png",
+  // },
+  // {
+  //   name: "Joshiro Lawrence",
+  //   role: "Tech Committee Lead",
+  //   imageUrl: "./profile/joshi.jpeg",
+  // },
   {
     name: "Ryan Chu",
     role: "Logistics Committee Lead",
-    imageUrl: "./profile/ryan.jpg",
+    imageUrl: "./profile/F2024/ryan.jpg",
   },
   {
     name: "Victor Pham",
     role: "Marketing and Outreach Committee Lead",
-    imageUrl: "./profile/victor.jpg",
+    imageUrl: "./profile/F2024/victor.jpg",
   },
-  {
-    name: "Ming Zhe Chua",
-    role: "Finance Committee Lead",
-    imageUrl: "./profile/ming-zhe.jpg",
-  },
+  // {
+  //   name: "Ming Zhe Chua",
+  //   role: "Finance Committee Lead",
+  //   imageUrl: "./profile/ming-zhe.jpg",
+  // },
   {
     name: "Enkhbold Ganbold",
     role: "Tech Committee",
-    imageUrl: "./profile/inky.png",
+    imageUrl: "./profile/F2024/enkhbold.jpg",
   },
   {
-    name: "Weishu Zhang",
+    name: "Manuel Moya",
     role: "Tech Committee",
-    imageUrl: "./profile/weishu.jpg",
+    imageUrl: "./profile/F2024/manuel.jpg",
   },
   {
-    name: "Yasmine",
+    name: "Haoyun(Snow) Luo",
     role: "Logistics Committee",
-    imageUrl: "./profile/yasmine.jpg",
+    imageUrl: "./profile/F2024/snow.jpg",
   },
   {
-    name: "Collin Hargreaves",
+    name: "Neha Gopal",
     role: "Logistics Committee",
-    imageUrl: "./profile/collin.jpg",
+    imageUrl: "./profile/F2024/neha.jpg",
   },
   {
-    name: "Iris Li",
+    name: "Nancy Ta",
     role: "Logistics Committee",
-    imageUrl: "./profile/iris.jpg",
+    imageUrl: "./profile/F2024/nancy.png",
   },
   {
-    name: "Luca",
-    role: "Logistics Committee",
-    imageUrl: "./profile/luca.png",
-  },
-  {
-    name: "Hannah Dinh",
-    role: "Logistics Committee",
-    imageUrl: "./profile/hannah.png",
-  },
-  {
-    name: "Jayden Lee",
-    role: "Logistics Committee",
-    imageUrl: "./profile/jayden.jpg",
-  },
-  {
-    name: "Jin Gi Min",
+    name: "Michelle D'Souza",
     role: "Marketing and Outreach Committee",
-    imageUrl: "./profile/jin-gi.jpg",
+    imageUrl: "./profile/F2024/michelle.jpg",
   },
   {
-    name: "Madhav Shukla",
+    name: "Nadine Mai",
     role: "Marketing and Outreach Committee",
-    imageUrl: "./profile/madhav.jpg",
-  },
-  {
-    name: "Katia Bravo",
-    role: "Marketing and Outreach Committee",
-    imageUrl: "./profile/katia.jpg",
+    imageUrl: "./profile/F2024/nadine.jpg",
   },
   // More people...
 ];
