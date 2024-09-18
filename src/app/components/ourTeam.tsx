@@ -40,7 +40,7 @@ const people = [
     imageUrl: "./profile/F2024/manuel.jpg",
   },
   {
-    name: "Haoyun(Snow) Luo",
+    name: "Haoyun (Snow) Luo",
     role: "Logistics Committee",
     imageUrl: "./profile/F2024/snow.jpg",
   },
