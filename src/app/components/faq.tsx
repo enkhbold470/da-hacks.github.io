@@ -72,7 +72,7 @@ export default function Faq() {
               Are there prizes?
             </summary>
             <div className="px-4 pb-4">
-              <p>Yes! There is a total prize pool of over $2000!</p>
+              <p>Yes! There is a total prize pool of over $2000 from our sponsors!</p>
             </div>
           </details>
           <details>
@@ -102,8 +102,7 @@ export default function Faq() {
             </summary>
             <div className="px-4 pb-4">
               <p>
-                Teams who want to borrow equipment must have between 3 and 4
-                members. Otherwise, teams can have between 1 and 4 members. You
+                Teams can have between 1 and 4 members. You
                 can either form a team beforehand and come to the event or make
                 teammates at the event. We will be having a team-making session.
                 Note that teams must be formed by the opening ceremony at 12 PM.
