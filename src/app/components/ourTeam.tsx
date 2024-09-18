@@ -4,16 +4,16 @@ const people = [
     role: "Director",
     imageUrl: "./profile/F2024/adi.jpg",
   },
-  // {
-  //   name: "Hassan Naboulsi",
-  //   role: "Director",
-  //   imageUrl: "./profile/hassan.png",
-  // },
-  // {
-  //   name: "Joshiro Lawrence",
-  //   role: "Tech Committee Lead",
-  //   imageUrl: "./profile/joshi.jpeg",
-  // },
+  {
+    name: "Hassan Naboulsi",
+    role: "Director",
+    imageUrl: "./profile/F2024/hassan.jpeg",
+  },
+  {
+    name: "Joshiro Lawrence",
+    role: "Tech Committee Lead",
+    imageUrl: "./profile/F2024/joshi.jpeg",
+  },
   {
     name: "Ryan Chu",
     role: "Logistics Committee Lead",
