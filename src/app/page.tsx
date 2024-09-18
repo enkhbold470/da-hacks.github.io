@@ -17,7 +17,7 @@ export default function Page() {
       {/* <SponsorLogos /> */}
       {/* <Faq /> */}
       <Contact />
-      {/* <Team /> */}
+      <Team />
       <Footer />
       <SubscribeNewsletter />
     </>
