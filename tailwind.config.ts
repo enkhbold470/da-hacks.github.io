@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         da_red: "#8B032C",
         da_gold: "#FFC60B",
+        da_dark: "#020617",
       },
     },
   },

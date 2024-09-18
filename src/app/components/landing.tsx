@@ -37,13 +37,13 @@ export default function Landing() {
             </div>
 
             <div className="flex flex-col items-center gap-2">
-              <h1 className="xl:text-7xl lg:text-7xl text-4xl mb-5 text-green-500 font-bold">
+              {/*<h1 className="xl:text-7xl lg:text-7xl text-4xl mb-5 text-green-500 font-bold">
                 00:00:00:00
-              </h1>{" "}
-              {/* <Countdown
+              </h1>{" "}*/}
+              {<Countdown
                 //   className="xl:text-7xl lg:text-6xl text-8xl mb-4 font-CerealBD text-white"
-                targetDate="2024-05-31T13:00:00"
-              /> */}
+                targetDate="2024-10-25T11:00:00"
+              />}
               {/* <a
                 href="https://deanzahacks.com/live-schedule"
                 target="_blank"
@@ -56,30 +56,30 @@ export default function Landing() {
 
             <div className="text-center">
               <h1 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-6xl">
-                De Anza Hacks V2.5
+                De Anza Hacks V3.0
               </h1>
 
               <p className="mt-6 text-lg leading-8 text-gray-300">
                 Cupertino’s leading hackathon is back! Join us for our 3rd year
-                with 200+ hackers across the state! May 31st - June 1st, 2024
+                with 200+ hackers across the state! October 25th - October 26th, 2024
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="https://forms.gle/ErSuEtGjBr3v92X59"
+                  href="https://forms.gle/KooamorxC6qT1Pfi7"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-md bg-green-600 px-5 py-3.5 text-2xl font-bold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
                 >
                   APPLY NOW
                 </a>
-                <a
+                {/*<a
                   href="https://forms.gle/FdgvGQMTes8sCDkp9"
                   target="_blank"
                   rel="noreferrer"
                   className="text-lg font-semibold leading-6 text-gray-100"
                 >
                   Judge/Mentor Form
-                </a>
+                </a>*/}
               </div>
             </div>
           </div>

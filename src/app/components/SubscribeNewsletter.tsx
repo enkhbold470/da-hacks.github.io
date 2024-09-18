@@ -29,30 +29,30 @@ const SubscribeNewsletter: React.FC = () => {
       <button
         onClick={handleOpen}
         className="fixed bottom-4 right-4 px-4 py-2 border-2 border-white rounded-md p-2.5 text-da_gold shadow-sm shadow-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-500 hover:bg-gray-100 hover:text-[#8B032C]"
-      >
+      > 
         Subscribe
       </button>
       {isOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-[#800000] p-6 rounded-lg shadow-lg text-da_gold">
+          <div className="bg-da_dark p-6 rounded-lg shadow-lg text-da_gold">
             <h2 className="text-2xl text-center mb-4">Subscribe to our Newsletter!</h2>
             <input
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
-                className="border border-da_gold bg-[#400000] p-2 mb-4 w-full text-da_gold placeholder-da_gold"
+                className="border border-da_gold bg-[#010429] p-2 mb-4 w-full text-da_gold placeholder-da_gold"
             />
             <div className="flex justify-end">
                 <button
                 onClick={handleSubmit}
-                className="bg-da_gold text-[#800000] px-4 py-2 rounded mr-2 hover:bg-[#FFD700] hover:text-[#400000]"
+                className="bg-da_gold text-da_dark px-4 py-2 rounded mr-2 hover:bg-[#FFD700] hover:text-[#400000]"
                 >
                 Submit
                 </button>
                 <button
                 onClick={handleClose}
-                className="bg-[#B22222] text-da_gold px-4 py-2 rounded hover:bg-[#FF6347] hover:text-[#400000]"
+                className="bg-[#010429] text-da_gold px-4 py-2 rounded hover:bg-[#FF6347] hover:text-[#400000]"
                 >
                 Close
                 </button>

@@ -11,11 +11,11 @@ export default function Page() {
   return (
     <>
       <Navbar />
-      {/* <Landing /> */}
-      <InterestForm />
+      <Landing />
+      {/*<InterestForm />*/}
       {/* <Sponsors /> */}
       {/* <SponsorLogos /> */}
-      {/* <Faq /> */}
+      <Faq />
       <Contact />
       <Team />
       <Footer />
