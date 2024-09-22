@@ -50,6 +50,11 @@ const people = [
     imageUrl: "./profile/F2024/neha.jpg",
   },
   {
+    name: "Hannah Chang",
+    role: "Logistics Committee",
+    imageUrl: "./profile/F2024/hannah.jpg",
+  },
+  {
     name: "Nancy Ta",
     role: "Logistics Committee",
     imageUrl: "./profile/F2024/nancy.png",
@@ -63,6 +68,11 @@ const people = [
     name: "Nadine Mai",
     role: "Marketing and Outreach Committee",
     imageUrl: "./profile/F2024/nadine.jpg",
+  },
+  {
+    name: "Katia Bravo",
+    role: "Marketing and Outreach Committee",
+    imageUrl: "./profile/F2024/katia.jpg",
   },
   // More people...
 ];
