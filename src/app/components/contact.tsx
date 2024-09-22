@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div id="contact" className="py-32 bg-da_red flex-col items-center">
+    <div id="contact" className="py-32 bg-da_dark flex-col items-center">
       {/*email */}
 
       <h1 className="flex flex-col text-2xl gap-2 text-da_gold  items-center">

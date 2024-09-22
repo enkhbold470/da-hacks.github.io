@@ -6,9 +6,10 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 const navigation = [
   { name: "Home", href: "/" },
   // { name: "Sponsors", href: "https://deanzahacks.com/#sponsor" },
-  // { name: "FAQ", href: "https://deanzahacks.com/#faqs" },
+  { name: "FAQ", href: "#faqs" },
   { name: "Contact", href: "#contact" },
   // { name: "DAHacks 2.5", href: "https://deanzahacks.com/Spring2024" },
+  { name: "Our Team", href: "#team" },
 ];
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
@@ -116,7 +117,7 @@ export default function Navbar() {
         onClose={setMobileMenuOpen}
       >
         <div className="fixed inset-0 z-50" />
-        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-da_red px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-da_dark px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">De Anza Hacks</span>

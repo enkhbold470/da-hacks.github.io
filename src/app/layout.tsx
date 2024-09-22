@@ -64,7 +64,7 @@ export default function RootLayout({
       `}
         </Script>
       </head>
-      <body className={`${openSans.className} bg-da_red`}>{children}</body>
+      <body className={`${openSans.className} bg-da_dark`}>{children}</body>
     </html>
   );
 }

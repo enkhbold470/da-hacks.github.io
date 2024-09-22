@@ -2,18 +2,18 @@ const people = [
   {
     name: "Aditya Sharma",
     role: "Director",
-    imageUrl: "./profile/F2024/adit.JPG",
+    imageUrl: "./profile/F2024/adi.jpg",
   },
   // {
   //   name: "Hassan Naboulsi",
   //   role: "Director",
-  //   imageUrl: "./profile/hassan.png",
+  //   imageUrl: "./profile/F2024/hassan.jpeg",
   // },
-  // {
-  //   name: "Joshiro Lawrence",
-  //   role: "Tech Committee Lead",
-  //   imageUrl: "./profile/joshi.jpeg",
-  // },
+  {
+    name: "Joshiro Lawrence",
+    role: "Tech Committee Lead",
+    imageUrl: "./profile/F2024/joshi.jpeg",
+  },
   {
     name: "Ryan Chu",
     role: "Logistics Committee Lead",
@@ -40,7 +40,7 @@ const people = [
     imageUrl: "./profile/F2024/manuel.jpg",
   },
   {
-    name: "Haoyun(Snow) Luo",
+    name: "Haoyun (Snow) Luo",
     role: "Logistics Committee",
     imageUrl: "./profile/F2024/snow.jpg",
   },
