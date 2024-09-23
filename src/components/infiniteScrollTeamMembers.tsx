@@ -14,7 +14,7 @@ export default function InfiniteScrollTeamMembers() {
 
   useEffect(() => {
     if (scrollRef.current) {
-      setScrollWidth(scrollRef.current.scrollWidth / 2);
+      setScrollWidth(scrollRef.current.scrollWidth);
     }
   }, []);
 
@@ -39,7 +39,7 @@ export default function InfiniteScrollTeamMembers() {
         className="flex animate-scroll "
         style={{
           width: `${scrollWidth}px`,
-          animationDuration: `${teamMembers.length * 5}s`,
+          animationDuration: `${teamMembers.length * 2}s`,
         }}
       >
         {[...teamMembers, ...teamMembers].map(
