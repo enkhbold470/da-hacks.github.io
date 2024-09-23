@@ -7,7 +7,14 @@
 /* Gold = 255 198 11 */
 :root {
   --foreground-rgb: 139, 3, 44;
+  --primary-text-color: white;
 }
+
+body {
+  color: var(--primary-text-color);
+}
+
+
 /*
 @media (prefers-color-scheme: dark) {
   :root {

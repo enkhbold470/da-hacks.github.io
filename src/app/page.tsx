@@ -1,23 +1,21 @@
-import Navbar from "./components/navbar";
-import Landing from "./components/landing";
-import Faq from "./components/faq";
-import Contact from "./components/contact";
-import Team from "./components/ourTeam";
-import Footer from "./components/Footer";
-import SponsorLogos from "./components/SponsorsNew";
-import InterestForm from "./components/InterestForm";
-import SubscribeNewsletter from "./components/SubscribeNewsletter";
+import Landing from "../components/landing";
+import Faq from "../components/faq";
+import Socials from "../components/contact";
+import Footer from "../components/Footer";
+import Sponsors from "../components/Sponsors";
+import SubscribeNewsletter from "../components/SubscribeNewsletter";
+import InfiniteScrollTeamMembers from "../components/infiniteScrollTeamMembers";
+import Email from "../components/email";
+
 export default function Page() {
   return (
     <>
-      <Navbar />
       <Landing />
-      {/*<InterestForm />*/}
-      {/* <Sponsors /> */}
-      {/* <SponsorLogos /> */}
+      <Sponsors />
       <Faq />
-      <Contact />
-      <Team />
+      <Email />
+      <InfiniteScrollTeamMembers />
+      <Socials />
       <Footer />
       <SubscribeNewsletter />
     </>

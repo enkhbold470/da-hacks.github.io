@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function InterestForm() {
   return (
     <>
@@ -23,7 +25,7 @@ export default function InterestForm() {
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 text-base leading-6 text-da_gold ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Hosted on De Anza College Campus{" "}
-                <a
+                <Link
                   href="https://deanza.edu/"
                   target="_blank"
                   rel="noreferrer"
@@ -31,26 +33,8 @@ export default function InterestForm() {
                 >
                   <span className="absolute inset-0" aria-hidden="true" />
                   Learn more <span aria-hidden="true">&rarr;</span>
-                </a>
+                </Link>
               </div>
-            </div>
-
-            <div className="flex flex-col items-center gap-2">
-              {/* <h1 className="xl:text-7xl lg:text-7xl text-4xl mb-5 text-green-500 font-bold">
-                00:00:00:00
-              </h1>{" "} */}
-              {/* <Countdown
-                //   className="xl:text-7xl lg:text-6xl text-8xl mb-4 font-CerealBD text-white"
-                targetDate="2024-05-31T13:00:00"
-              /> */}
-              {/* <a
-                href="https://deanzahacks.com/live-schedule"
-                target="_blank"
-                rel="noreferrer"
-                className="rounded-md bg-white px-5 py-3.5 text-base lg:text-2xl font-bold text-black shadow-sm hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
-              >
-                Hack Schedule
-              </a> */}
             </div>
 
             <div className="text-center">
@@ -63,23 +47,14 @@ export default function InterestForm() {
                 Join us for our 4th year with 200+ hackers across the state!
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
+                <Link
                   href="https://forms.gle/k4h8PHNXrhva2k997"
                   target="_blank"
                   rel="noreferrer"
                   className="border-2 border-white rounded-md shadow-black px-5 py-3.5 text-2xl font-bold text-da_gold hover:text-[#8B032C] shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-500"
                 >
                   Interest Form
-                </a>
-
-                {/* <a
-                  href="https://forms.gle/FdgvGQMTes8sCDkp9"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-lg font-semibold leading-6 text-gray-100"
-                >
-                  Judge/Mentor Form
-                </a> */}
+                </Link>
               </div>
               <p className="mt-6 text-lg leading-8 text-da_gold">
                 We will email you when registration opens!

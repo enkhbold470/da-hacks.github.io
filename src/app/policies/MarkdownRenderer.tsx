@@ -3,12 +3,13 @@ import React, { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 import "./Markdown.css";
+import { ankaCoder } from "@/utils/font";
 
 interface MarkdownRendererProps {
   filePath: string;
 }
 
-const MarkdownRenderer = ({ filePath }: { filePath: string }) => {
+const MarkdownRenderer = ({ filePath }: MarkdownRendererProps) => {
   const [markdownContent, setMarkdownContent] = useState("");
 
   useEffect(() => {
@@ -19,8 +20,11 @@ const MarkdownRenderer = ({ filePath }: { filePath: string }) => {
   }, [filePath]);
 
   return (
-    <div className="markdown-content">
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>
+    <div>
+      <ReactMarkdown
+        className={`markdown-content `}
+        remarkPlugins={[remarkGfm]}
+      >
         {markdownContent}
       </ReactMarkdown>
     </div>

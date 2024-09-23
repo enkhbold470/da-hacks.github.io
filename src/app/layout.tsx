@@ -1,19 +1,15 @@
-import type { Metadata } from "next";
 import type { Viewport } from "next";
 import Script from "next/script";
-
-import Head from "next/head";
-
-import { Inter, Open_Sans } from "next/font/google";
-// import localFont from 'next/font/local';
+import localFont from "next/font/local";
 import "./globals.css";
-const inter = Inter({ subsets: ["latin"] });
-const openSans = Open_Sans({
-  subsets: ["latin"],
-  weight: ["300"],
-  style: ["normal"],
+import Navbar from "@/components/navbar";
+
+const ankacoder = localFont({
+  src: "./fonts/ankacoder.ttf",
+  variable: "--font-ankacoder",
+  weight: "100 900",
 });
-// const karmaticArcade = localFont({ src: '../../public/fonts/ka.ttf' });
+
 export async function generateMetadata() {
   return {
     title: "DAHacks 2024 Fall",
@@ -55,7 +51,7 @@ export default function RootLayout({
         />
         <Script id="google-analytics">
           {`
-        
+
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
@@ -64,7 +60,10 @@ export default function RootLayout({
       `}
         </Script>
       </head>
-      <body className={`${openSans.className} bg-da_dark`}>{children}</body>
+      <body className={`bg-da_dark ${ankacoder.className}`}>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

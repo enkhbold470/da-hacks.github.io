@@ -1,5 +1,29 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    images: {
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'www.deanza.edu',
+            },
+            {
+                protocol: 'https',
+                hostname: 'upload.wikimedia.org',
+            },
+            {
+                protocol: 'https',
+                hostname: 'www.interviewcake.com',
+            },
+            {
+                protocol: 'https',
+                hostname: 'asset.brandfetch.io',
+            },
+            {
+                protocol: 'https',
+                hostname: 'avatars.githubusercontent.com',
+            },
+        ],
+    },
     async headers() {
       return [
         {
@@ -14,6 +38,6 @@ const nextConfig = {
         },
       ];
     },
-  };
-  
-  export default nextConfig;
+};
+
+export default nextConfig;

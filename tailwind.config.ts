@@ -13,6 +13,19 @@ const config: Config = {
         da_gold: "#FFC60B",
         da_dark: "#020617",
       },
+
+      fontSize: {
+        xs: "0.75rem",
+        sm: "0.875rem",
+        base: "1rem",
+        lg: "1.125rem",
+        xl: "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "2rem",
+      },
+      letterSpacing: {
+        tighter: "-0.02em",
+      },
     },
   },
   plugins: [],

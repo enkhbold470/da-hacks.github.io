@@ -1,13 +1,18 @@
-import Countdown from "./Countdown";
+import PixelCountdown from "./pixel-countdown";
+import Link from "next/link";
+import { rqndpPro, karmaticArcade } from "../utils/font";
+
+const landingDate = new Date("2024-10-26T11:00:00");
+
 export default function Landing() {
   return (
     <>
-      <div className="bg-slate-950 ">
+      <div className={`bg-slate-950`}>
         {
           // <Countdown targetDate="2024-04-20T00:00:00" />
         }
 
-        <div className="relative isolate px-6 lg:px-8">
+        <div className="relative isolate px-6 lg:px-6">
           <div
             className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80 "
             aria-hidden="true"
@@ -20,11 +25,11 @@ export default function Landing() {
               }}
             />
           </div>
-          <div className="mx-auto max-w-2xl py-16 sm:py-48 lg:py-56">
+          <div className="mx-auto max-w-2xl py-16 sm:py-48 lg:py-36">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
               <div className="relative rounded-full px-3 py-1 text-base leading-6 text-gray-300 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                 Hosted on De Anza College Campus{" "}
-                <a
+                <Link
                   href="https://deanza.edu/"
                   target="_blank"
                   rel="noreferrer"
@@ -32,54 +37,34 @@ export default function Landing() {
                 >
                   <span className="absolute inset-0" aria-hidden="true" />
                   Learn more <span aria-hidden="true">&rarr;</span>
-                </a>
+                </Link>
               </div>
             </div>
 
-            <div className="flex flex-col items-center gap-2">
-              {/*<h1 className="xl:text-7xl lg:text-7xl text-4xl mb-5 text-green-500 font-bold">
-                00:00:00:00
-              </h1>{" "}*/}
-              {<Countdown
-                //   className="xl:text-7xl lg:text-6xl text-8xl mb-4 font-CerealBD text-white"
-                targetDate="2024-10-25T11:00:00"
-              />}
-              {/* <a
-                href="https://deanzahacks.com/live-schedule"
-                target="_blank"
-                rel="noreferrer"
-                className="rounded-md bg-white px-5 py-3.5 text-base lg:text-2xl font-bold text-black shadow-sm hover:bg-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
-              >
-                Hack Schedule
-              </a> */}
-            </div>
-
             <div className="text-center">
-              <h1 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-6xl">
+              <h1
+                className={`lg:text-[5rem] font-bold tracking-tight text-gray-100  text-[3rem] ${karmaticArcade.className}`}
+              >
                 De Anza Hacks V3.0
               </h1>
+              <div className="flex flex-col items-center gap-2">
+                <PixelCountdown targetDate={landingDate} />
+              </div>
 
-              <p className="mt-6 text-lg leading-8 text-gray-300">
+              <p className="mt-6 lg:text-2xl text-base leading-8 text-gray-500 font-thin">
                 Cupertino’s leading hackathon is back! Join us for our 4th year
-                with 200+ hackers across the state! October 25th - October 26th, 2024
+                with 200+ hackers across the state! October 25th - October 26th,
+                2024
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
-                <a
+                <Link
                   href="https://forms.gle/KooamorxC6qT1Pfi7"
                   target="_blank"
                   rel="noreferrer"
-                  className="rounded-md bg-green-600 px-5 py-3.5 text-2xl font-bold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
+                  className={`rounded-md bg-green-600 px-5 py-3.5 text-2xl font-bold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 ${rqndpPro.className}`}
                 >
                   APPLY NOW
-                </a>
-                {/*<a
-                  href="https://forms.gle/FdgvGQMTes8sCDkp9"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-lg font-semibold leading-6 text-gray-100"
-                >
-                  Judge/Mentor Form
-                </a>*/}
+                </Link>
               </div>
             </div>
           </div>
