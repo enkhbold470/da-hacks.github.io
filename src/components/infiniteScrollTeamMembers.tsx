@@ -2,7 +2,11 @@
 
 import React, { useEffect, useRef, useState } from "react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import Link from "next/link";
 import { teamMembers, TeamMemberProps } from "@/add_info/teamMembers";
+
+const imageUrlHead =
+  "https://raw.githubusercontent.com/enkhbold470/da-hacks.github.io/refs/heads/main/public";
 
 export default function InfiniteScrollTeamMembers() {
   const [scrollWidth, setScrollWidth] = useState(0);
@@ -40,12 +44,18 @@ export default function InfiniteScrollTeamMembers() {
       >
         {[...teamMembers, ...teamMembers].map(
           (person: TeamMemberProps, index: number) => (
-            <div
+            <Link
+              href={person.linkedIn}
+              target="_blank"
               key={index}
-              className="flex lg:flex-row flex-col items-center space-x-4 px-4 gap-2"
+              className="flex lg:flex-row flex-col items-center space-x-4 px-4 gap-2 hover:scale-110 transition-all duration-300"
             >
               <Avatar className="h-[150px] w-[150px]">
-                <AvatarImage src={person.imageUrl} alt={person.name} />
+                <AvatarImage
+                  src={imageUrlHead + person.imageUrl}
+                  alt={person.name}
+                  className="hover:scale-110 transition-all duration-300"
+                />
                 <AvatarFallback>
                   {person.name
                     .split(" ")
@@ -57,7 +67,7 @@ export default function InfiniteScrollTeamMembers() {
                 <p className="text-xl font-bold">{person.name}</p>
                 <p className="text-sm font-thin opacity-50">{person.role}</p>
               </div>
-            </div>
+            </Link>
           )
         )}
       </div>
