@@ -1,8 +1,10 @@
+"use client";
+import { motion } from "framer-motion"; // Import motion from framer-motion
 import { faq, FAQProps } from "@/add_info/faq";
 
 export default function Faq() {
   return (
-    <section
+    <section // Change section to motion.section
       id="faqs"
       className=" text-gray-100 py-32 min-h-screen bg-gradient-to-b from-slate-950 via-green-800 to-slate-950"
     >
@@ -12,14 +14,24 @@ export default function Faq() {
         </h2>
         <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-200">
           {faq.map((item: FAQProps, index: number) => (
-            <details key={index}>
-              <summary className="py-2 outline-none cursor-pointer focus:underline">
+            <motion.details // Change details to motion.details
+              key={index}
+              initial={{ opacity: 0, x: -50 }} // Initial position for details
+              animate={{ opacity: 1, x: 0 }} // Animate to original position
+              transition={{ duration: 0.3 }} // Transition duration for details
+            >
+              <motion.summary
+                className="py-2 outline-none cursor-pointer focus:underline"
+                initial={{ opacity: 0, x: 500 }} // Initial position for details
+                animate={{ opacity: 1, x: 0 }} // Animate to original position
+                transition={{ duration: 0.5 }} // Transition duration for details
+              >
                 {item.question}
-              </summary>
+              </motion.summary>
               <div className="px-4 pb-4">
                 <p>{item.answer}</p>
               </div>
-            </details>
+            </motion.details>
           ))}
         </div>
       </div>

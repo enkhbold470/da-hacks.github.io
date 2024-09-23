@@ -6,11 +6,9 @@ import Sponsors from "../components/Sponsors";
 import SubscribeNewsletter from "../components/SubscribeNewsletter";
 import InfiniteScrollTeamMembers from "../components/infiniteScrollTeamMembers";
 import Email from "../components/email";
-import OurTeam from "../components/ourTeam";
 export default function Page() {
   return (
     <>
-      {/* <OurTeam /> */}
       <Landing />
       <Sponsors />
       <Faq />
