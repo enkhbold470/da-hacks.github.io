@@ -39,7 +39,7 @@ export default function InfiniteScrollTeamMembers() {
         className="flex animate-scroll "
         style={{
           width: `${scrollWidth}px`,
-          animationDuration: `${teamMembers.length * 2}s`,
+          animationDuration: `${teamMembers.length * 10}s`,
         }}
       >
         {[...teamMembers, ...teamMembers].map(
