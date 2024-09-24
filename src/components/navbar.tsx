@@ -51,7 +51,7 @@ export default function Navbar() {
             <span className="sr-only">De Anza Hacks</span>
             <Image
               className="h-16 w-auto"
-              src="/dadevlogo.png"
+              src="/dahackslogo.png"
               width={100}
               height={100}
               alt=""
@@ -106,7 +106,7 @@ export default function Navbar() {
               <span className="sr-only">De Anza Hacks</span>
               <Image
                 className="h-16 w-auto"
-                src="/dadevlogo.png"
+                src="/dahackslogo.png"
                 width={100}
                 height={100}
                 alt=""

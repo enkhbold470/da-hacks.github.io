@@ -21,11 +21,11 @@ export async function generateMetadata() {
 
     robots: "index, follow",
     icons: [
-      "./favicon_io/android-chrome-192x192.png",
-      "./favicon_io/android-chrome-512x512.png",
-      "favicon-16x16.png",
-      "favicon-32x32.png",
-      "apple-touch-icon.png",
+      "/favicon_io/android-chrome-192x192.png",
+      "/favicon_io/android-chrome-512x512.png",
+      "/favicon_io/favicon-16x16.png",
+      "/favicon_io/favicon-32x32.png",
+      "/favicon_io/apple-touch-icon.png",
     ],
   };
 }
