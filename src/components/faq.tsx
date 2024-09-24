@@ -12,8 +12,8 @@ export default function Faq() {
       id="faqs"
       className=" text-gray-100 py-32 min-h-screen bg-gradient-to-b from-da_dark via-da_lighter to-da_dark overflow-hidden"
       ref={faqRef} // Attach ref to section for visibility tracking
-      initial={{ opacity: 0, x: -50 }}
-      animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }} // Animate based on visibility
+      initial={{ opacity: 0, y: -50 }}
+      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -50 }} // Animate based on visibility
       transition={{ duration: 0.5 }}
     >
       <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
@@ -24,15 +24,15 @@ export default function Faq() {
           {faq.map((item: FAQProps, index: number) => (
             <motion.details
               key={index}
-              initial={{ opacity: 0, x: 500 }}
-              animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 500 }} // Animate based on visibility
+              initial={{ opacity: 0, y: 50 }}
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }} // Animate based on visibility
               transition={{ duration: 0.7 }}
             >
               <motion.summary
                 className="py-2 outline-none cursor-pointer focus:underline"
-                initial={{ opacity: 0, x: 500 }}
+                initial={{ opacity: 0, y: 50 }}
                 animate={
-                  isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 500 }
+                  isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }
                 } // Animate based on visibility
                 transition={{ duration: 0.7 }}
               >
@@ -40,11 +40,11 @@ export default function Faq() {
               </motion.summary>
               <motion.div
                 className="px-4 pb-4"
-                initial={{ opacity: 0, x: 500 }}
+                initial={{ opacity: 0, y: 50 }}
                 animate={
-                  isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 500 }
+                  isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }
                 } // Animate based on visibility
-                transition={{ duration: 0.9 }}
+                transition={{ duration: 0.8 }}
               >
                 <p>{item.answer}</p>
               </motion.div>
