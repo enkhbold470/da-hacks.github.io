@@ -11,8 +11,6 @@ const ankacoder = localFont({
 });
 
 export async function generateMetadata() {
-  const version = new Date().getTime();
-  
   return {
     title: "DAHacks 2024 Fall",
     description:
@@ -23,12 +21,11 @@ export async function generateMetadata() {
 
     robots: "index, follow",
     icons: [
-      { rel: "icon", href: `/favicon_io/android-chrome-192x192.png?v=${version}`, sizes: "192x192" },
-      { rel: "icon", href: `/favicon_io/android-chrome-512x512.png?v=${version}`, sizes: "512x512" },
-      { rel: "icon", href: `/favicon_io/favicon-16x16.png?v=${version}`, sizes: "16x16" },
-      { rel: "icon", href: `/favicon_io/favicon-32x32.png?v=${version}`, sizes: "32x32" },
-      { rel: "apple-touch-icon", href: `/favicon_io/apple-touch-icon.png?v=${version}`, sizes: "180x180" },
-      { rel: "manifest", href: `/favicon_io/site.webmanifest?v=${version}` },
+      "/favicon_io/android-chrome-192x192.png",
+      "/favicon_io/android-chrome-512x512.png",
+      "/favicon_io/favicon-16x16.png",
+      "/favicon_io/favicon-32x32.png",
+      "/favicon_io/apple-touch-icon.png",
     ],
   };
 }
