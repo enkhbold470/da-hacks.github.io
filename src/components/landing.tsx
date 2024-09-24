@@ -57,7 +57,7 @@ export default function Landing() {
               <PixelCountdown targetDate={landingDate} />
             </div>
 
-            <p className="mt-6 lg:text-2xl text-base leading-8 text-gray-500 font-thin">
+            <p className="mt-6 lg:text-2xl text-base leading-8 text-gray-300 font-thin">
               Cupertino’s leading hackathon is back! Join us for our 4th year
               with 200+ hackers across the state! October 25th - October 26th,
               2024
