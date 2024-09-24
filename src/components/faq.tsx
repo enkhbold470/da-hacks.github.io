@@ -10,7 +10,7 @@ export default function Faq() {
   return (
     <motion.section
       id="faqs"
-      className=" text-gray-100 py-32 min-h-screen bg-gradient-to-b from-slate-950 via-green-800 to-slate-950 overflow-hidden"
+      className=" text-gray-100 py-32 min-h-screen bg-gradient-to-b from-da_dark via-da_lighter to-da_dark overflow-hidden"
       ref={faqRef} // Attach ref to section for visibility tracking
       initial={{ opacity: 0, x: -50 }}
       animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }} // Animate based on visibility

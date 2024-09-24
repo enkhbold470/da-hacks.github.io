@@ -43,7 +43,7 @@ export default function Navbar() {
       }   inset-x-0 top-0 z-50 backdrop-filter backdrop-blur-lg`}
     >
       <nav
-        className="flex items-center justify-between p-1 lg:px-8 text-[1.5rem] font-semibold leading-6 text-[#FFC60B] "
+        className="flex items-center justify-between p-1 lg:px-8 text-[1.5rem] font-semibold leading-6 text-da_gold "
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -61,7 +61,7 @@ export default function Navbar() {
         <div className="flex lg:hidden px-4">
           <button
             type="button"
-            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-[#FFC60B]"
+            className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-da_gold"
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
@@ -74,14 +74,14 @@ export default function Navbar() {
               key={item.name}
               href={item.href}
               target={item.href.startsWith("http") ? "_blank" : "_self"}
-              className="hover:text-green-500"
+              className="hover:text-da_lighest_hover"
             >
               {item.name}
             </Link>
           ))}
         </div>
 
-        <div className="hidden lg:flex lg:flex-1 lg:justify-end p-2 text-[1.5rem] font-semibold leading-6 text-[#FFC60B]">
+        <div className="hidden lg:flex lg:flex-1 lg:justify-end p-2 text-[1.5rem] font-semibold leading-6 text-da_gold">
           <div className="flex gap-6">
             <Link
               href="https://discord.com/invite/V225BEAD9S"
@@ -128,7 +128,7 @@ export default function Navbar() {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-[#FFC60B] hover:bg-slate-400"
+                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-da_gold hover:bg-slate-400"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {item.name}
@@ -138,14 +138,14 @@ export default function Navbar() {
               <Link
                 href="https://github.com/da-hacks/awesome-projects-boilerplates"
                 target="_blank"
-                className="-mx-3 block rounded-lg flex px-3 py-2 items-center gap-2 text-base font-semibold leading-7 text-[#FFC60B] hover:bg-slate-400"
+                className="-mx-3 block rounded-lg flex px-3 py-2 items-center gap-2 text-base font-semibold leading-7 text-da_gold hover:bg-slate-400"
               >
                 New Hackers? 💻
               </Link>
               <Link
                 href="https://discord.com/invite/V225BEAD9S"
                 target="_blank"
-                className="-mx-3 block rounded-lg flex px-3 py-2 items-center gap-2 text-base font-semibold leading-7 text-[#FFC60B] hover:bg-slate-400"
+                className="-mx-3 block rounded-lg flex px-3 py-2 items-center gap-2 text-base font-semibold leading-7 text-da_gold hover:bg-slate-400"
               >
                 Discord
                 <svg

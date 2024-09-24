@@ -49,12 +49,12 @@ export default function PixelCountdown({ targetDate }: { targetDate: Date }) {
 
   return (
     <h1
-      className={`flex flex-col items-center justify-center text-green-500 lg:text-[7rem] text-[5rem] font-bold tracking-widest ${rqndpPro.className}`}
+      className={`flex flex-col items-center justify-center text-da_lightest lg:text-[7rem] text-[3.4rem] font-bold tracking-widest ${rqndpPro.className}`}
     >
       {`${formatTime(timeLeft.days)}:${formatTime(timeLeft.hours)}:${formatTime(
         timeLeft.minutes
       )}:${formatTime(timeLeft.seconds)}`}
-      <div className="lg:text-[2rem] text-[2rem] tracking-widest font-thin lg:mt-[-2rem] mt-[-1rem]">
+      <div className="lg:text-[2rem] text-[1.4rem] tracking-widest font-thin lg:mt-[-2rem] mt-[-1rem]">
         DAYS : HRS : MIN : SEC
       </div>
     </h1>

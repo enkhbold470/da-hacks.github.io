@@ -12,7 +12,7 @@ export default function Sponsors() {
   return (
     <motion.section // Wrap the entire section with motion.section
       id="sponsor"
-      className="py-24 bg-gradient-to-b from-slate-950 via-green-600 to-slate-950 "
+      className="py-24 bg-gradient-to-b from-da_dark via-da_lightest to-da_dark "
       ref={ref} // Attach ref to motion.section
       initial={{ opacity: 0, y: -50 }} // Initial state
       animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : -50 }} // Animate based on inView

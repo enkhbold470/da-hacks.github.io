@@ -9,7 +9,7 @@ const landingDate = new Date("2024-10-26T11:00:00");
 export default function Landing() {
   return (
     <motion.div
-      className={`bg-slate-950`}
+      className={`bg-da_dark`}
       initial={{ opacity: 0, y: -100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
@@ -24,7 +24,7 @@ export default function Landing() {
           transition={{ duration: 0.5 }}
         >
           <div
-            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#0eff00] to-[#063b00] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+            className="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-da_lighter to-da_lightest opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
             style={{
               clipPath:
                 "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",
@@ -39,7 +39,7 @@ export default function Landing() {
                 href="https://deanza.edu/"
                 target="_blank"
                 rel="noreferrer"
-                className="font-semibold text-green-600"
+                className="font-semibold text-da_lightest"
               >
                 <span className="absolute inset-0" aria-hidden="true" />
                 Learn more <span aria-hidden="true">&rarr;</span>
@@ -67,7 +67,7 @@ export default function Landing() {
                 href="https://forms.gle/KooamorxC6qT1Pfi7"
                 target="_blank"
                 rel="noreferrer"
-                className={`rounded-md bg-green-600 px-5 py-3.5 text-2xl font-bold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600 ${rqndpPro.className}`}
+                className={`rounded-md bg-da_lighter px-5 py-3.5 text-2xl font-bold text-white shadow-sm hover:bg-da_lightest focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-da_lightest ${rqndpPro.className}`}
               >
                 APPLY NOW
               </Link>
@@ -82,7 +82,7 @@ export default function Landing() {
           transition={{ duration: 0.5 }}
         >
           <div
-            className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#0eff00] to-[#063b00] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+            className="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-da_lighter to-da_lightest opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
             style={{
               clipPath:
                 "polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)",

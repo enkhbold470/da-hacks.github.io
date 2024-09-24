@@ -10,8 +10,11 @@ const config: Config = {
     extend: {
       colors: {
         da_red: "#8B032C",
-        da_gold: "#FFC60B",
-        da_dark: "#020617",
+        da_gold: "#FFFFFF", // misnmamed after changing from gold titles to white titles
+        da_dark: "#18204E",
+        da_lighter: "#8a63d2",
+        da_lightest: "#d1a7f5",
+        da_lightest_hover: "#e5bafc",
       },
 
       fontSize: {
