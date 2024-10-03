@@ -20,6 +20,11 @@ export const faq: FAQProps[] = [
       "Applications are due on Monday, October 14th, 2024 at 11:59 PM PDT.",
   },
   {
+    question: "Who can participate?",
+    answer:
+      "DAHacks is only open to Foothill and De Anza College students. We welcome FHDA students from all backgrounds and skill levels to join us for a weekend of learning, creating, and fun!",
+  },
+  {
     question: "Does it cost money to attend?",
     answer:
       "No need to break the bank to join in on the hacking fun! DAHacks is absolutely FREE to attend. We believe in making tech innovation accessible to everyone.",

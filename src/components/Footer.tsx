@@ -10,9 +10,9 @@ export default function Footer() {
           <Link
             href="https://github.com/da-hacks/da-hacks.github.io"
             target="_blank"
-            className="ml-2 underline"
+            className="ml-2"
           >
-            Github <IconBrandGithub className="inline-block" />
+            <span className="underline">Github</span> <IconBrandGithub className="inline-block" />
           </Link>
         </h1>
         <h1 className="text-md text-center">
