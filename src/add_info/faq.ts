@@ -22,7 +22,7 @@ export const faq: FAQProps[] = [
   {
     question: "Who can participate?",
     answer:
-      "DAHacks is only open to Foothill and De Anza College students. We welcome FHDA students from all backgrounds and skill levels to join us for a weekend of learning, creating, and fun!",
+      "DAHacks is only open to Foothill and De Anza College students. We welcome FHDA students from all backgrounds and skill levels to join us for two days of learning, creating, and fun!",
   },
   {
     question: "Does it cost money to attend?",
