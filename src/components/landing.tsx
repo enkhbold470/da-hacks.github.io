@@ -71,14 +71,14 @@ export default function Landing() {
               >
                 APPLY NOW
               </Link>
-              <Link
+              {/*<Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfG9ncjB7jS9vIq3UI2PHdQ63lVDmzqY_8z3PrPK8j2w4SDnA/viewform"
                 target="_blank"
                 rel="noreferrer"
                 className={`rounded-md px-5 py-3.5 text-2xl font-bold text-white underline ${rqndpPro.className}`}
               >
                 APPLY AS A MENTOR
-              </Link>
+              </Link>*/}
             </div>
           </div>
         </div>
