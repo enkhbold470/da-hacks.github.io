@@ -11,10 +11,10 @@ const imageUrlHead =
 export default function InfiniteScrollTeamMembers() {
   const scrollRef = useRef<HTMLDivElement>(null);
   const scrollSpeed = 1; // Adjust the scroll speed as needed
+  let isTouching = false;
 
   useEffect(() => {
     const scrollContainer = scrollRef.current;
-    let isTouching = false;
     let startX = 0;
     let scrollLeft = 0;
 
@@ -55,7 +55,7 @@ export default function InfiniteScrollTeamMembers() {
     };
 
     const autoScroll = () => {
-      if (scrollContainer) {
+      if (scrollContainer && !isTouching) {
         scrollContainer.scrollLeft += scrollSpeed;
         handleScroll();
       }
