@@ -28,10 +28,4 @@ export const sponsors: SponsorProps[] = [
     imageUrl: "/dadevlogo.png",
     link: "#",
   },
-
-  {
-    name: "TTF Robotics",
-    imageUrl: "https://avatars.githubusercontent.com/u/161773625?s=200&v=4",
-    link: "https://linktr.ee/ttfrobotics",
-  },
 ];
