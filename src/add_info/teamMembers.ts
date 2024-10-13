@@ -119,4 +119,11 @@ export const teamMembers: TeamMemberProps[] = [
     imageUrl: "/profile/F2024/jin.jpg",
     linkedIn: "#",
   },
+  {
+    id: 17,
+    name: "Madhav Shukla",
+    role: "Marketing and Outreach Committee",
+    imageUrl: "/profile/F2024/madhav.jpg",
+    linkedIn: "#",
+  },
 ];
