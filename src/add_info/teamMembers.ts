@@ -95,7 +95,7 @@ export const teamMembers: TeamMemberProps[] = [
     id: 13,
     name: "Jayden Lee",
     role: "Logistics Committee",
-    imageUrl: "/profile/F2024/jayden.png",
+    imageUrl: "/profile/F2024/jayden.jpg",
     linkedIn: "#",
   },
   {
