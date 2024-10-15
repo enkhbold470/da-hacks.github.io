@@ -12,7 +12,7 @@ export default function Footer() {
             target="_blank"
             className="ml-2"
           >
-            <span className="underline">Github</span> <IconBrandGithub className="inline-block" />
+            <span className="underline pr-1">Github</span><IconBrandGithub className="inline-block" />
           </Link>
         </h1>
         <h1 className="text-md text-center">
