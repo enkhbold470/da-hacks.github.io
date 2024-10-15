@@ -40,7 +40,7 @@ export const sponsors: SponsorProps[] = [
   },
   {
     name: "Verbwire",
-    imageUrl: "/assets/sponsors/verbwire.svg",
+    imageUrl: "/assets/sponsors/Verbwire.svg",
     link: "https://www.verbwire.com/",
   },
 ];
