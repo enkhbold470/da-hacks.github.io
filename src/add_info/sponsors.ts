@@ -28,4 +28,19 @@ export const sponsors: SponsorProps[] = [
     imageUrl: "/dadevlogo.png",
     link: "#",
   },
+  {
+    name: "GMC",
+    imageUrl: "/assets/sponsors/gmc.png",
+    link: "#",
+  },
+  {
+    name: "RunPod",
+    imageUrl: "/assets/sponsors/runpod.svg",
+    link: "https://www.runpod.io/",
+  },
+  {
+    name: "Verbwire",
+    imageUrl: "/assets/sponsors/verbwire.svg",
+    link: "https://www.verbwire.com/",
+  },
 ];
