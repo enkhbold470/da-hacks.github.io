@@ -43,4 +43,9 @@ export const sponsors: SponsorProps[] = [
     imageUrl: "/assets/sponsors/Verbwire.svg",
     link: "https://www.verbwire.com/",
   },
+  {
+    name: "Wolfram",
+    imageUrl: "/assets/sponsors/wolfram.png",
+    link: "https://www.wolfram.com/",
+  },
 ];
