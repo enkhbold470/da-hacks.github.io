@@ -26,7 +26,7 @@ export const sponsors: SponsorProps[] = [
   {
     name: "De Anza Developers",
     imageUrl: "/dadevlogo.png",
-    link: "#",
+    link: "https://discord.gg/QrTMDrBHrp",
   },
   {
     name: "GMC",
