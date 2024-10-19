@@ -49,4 +49,14 @@ export const faq: FAQProps[] = [
     answer:
       "No team? No problem! Leading up to our event, you can meet new people through our hacker Discord. We will have team formation events at the beginning of the hackathon geared towards helping you find people to work with.",
   },
+  {
+    question: "What should I bring?",
+    answer:
+      "Bring your student ID, laptop, chargers, personal hygiene items, any materials necessary for your project, and a positive attitude!",
+  },
+  {
+    question: "Can I start working on my project before the event?",
+    answer:
+      "No. All projects must begin after the event starts. Ongoing projects cannot be submitted for prizes.",
+  },
 ];
