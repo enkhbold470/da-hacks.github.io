@@ -69,7 +69,7 @@ export default function Landing() {
                 rel="noreferrer"
                 className={`rounded-md bg-yellow-500	 px-5 py-3.5 text-2xl font-bold text-white shadow-sm hover:bg-da_lightest focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-da_lightest ${rqndpPro.className} `}
               >
-                HACKERS GUIDE
+                HACKER'S GUIDE
               </Link>
               {/*<Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfG9ncjB7jS9vIq3UI2PHdQ63lVDmzqY_8z3PrPK8j2w4SDnA/viewform"
