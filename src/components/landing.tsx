@@ -65,7 +65,7 @@ export default function Landing() {
             </p>
             <div className="mt-10 flex items-center flex-col justify-center gap-y-6">
               <Link
-                href="https://docs.google.com/document/d/e/2PACX-1vQmDCK49N5kSuBpJ9Dw5KhlMqriV16uB-_2R0-PrGmk3n3X-dB9Prqh02WYxIBSJoETj7I4buMfd84t/pub"
+                href="https://hackersguide.deanzahacks.com"
                 target="_blank"
                 rel="noreferrer"
                 className={`rounded-md bg-yellow-500	 px-5 py-3.5 text-2xl font-bold text-white shadow-sm hover:bg-da_lightest focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-da_lightest ${rqndpPro.className} `}
