@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import PixelCountdown from "./pixel-countdown";
 import Link from "next/link";
@@ -63,14 +64,14 @@ export default function Landing() {
               2024
             </p>
             <div className="mt-10 flex items-center flex-col justify-center gap-y-6">
-              {/*<Link
-                href="https://forms.gle/KooamorxC6qT1Pfi7"
+              <Link
+                href="https://docs.google.com/document/d/e/2PACX-1vQmDCK49N5kSuBpJ9Dw5KhlMqriV16uB-_2R0-PrGmk3n3X-dB9Prqh02WYxIBSJoETj7I4buMfd84t/pub"
                 target="_blank"
                 rel="noreferrer"
                 className={`rounded-md bg-yellow-500	 px-5 py-3.5 text-2xl font-bold text-white shadow-sm hover:bg-da_lightest focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-da_lightest ${rqndpPro.className} `}
               >
-                APPLY NOW
-              </Link>*/}
+                HACKER'S GUIDE
+              </Link>
               {/*<Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSfG9ncjB7jS9vIq3UI2PHdQ63lVDmzqY_8z3PrPK8j2w4SDnA/viewform"
                 target="_blank"
