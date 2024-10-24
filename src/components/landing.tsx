@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import PixelCountdown from "./pixel-countdown";
 import Link from "next/link";
