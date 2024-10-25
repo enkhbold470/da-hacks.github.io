@@ -51,6 +51,9 @@ export default function PixelCountdown({ targetDate }: { targetDate: Date }) {
     <h1
       className={`flex flex-col items-center justify-center text-da_lightest lg:text-[7rem] text-[3.4rem] font-bold tracking-widest ${rqndpPro.className}`}
     >
+      <div className="lg:text-[3rem] text-[2rem] tracking-widest font-thin lg:mb-[-2rem] mt-[-1rem] lg:mt-[1rem] mt-[1rem]">
+        HACKING ENDS IN
+      </div>
       {`${formatTime(timeLeft.days)}:${formatTime(timeLeft.hours)}:${formatTime(
         timeLeft.minutes
       )}:${formatTime(timeLeft.seconds)}`}
