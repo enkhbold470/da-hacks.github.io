@@ -5,7 +5,7 @@ import Link from "next/link";
 import { rqndpPro, karmaticArcade } from "../utils/font";
 import { motion } from "framer-motion";
 
-const landingDate = new Date("2024-10-26T15:00:00");
+const landingDate = new Date("2024-10-26T15:30:00");
 
 export default function Landing() {
   return (
