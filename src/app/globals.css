@@ -16,6 +16,15 @@
   --text-2xl: 1.5rem;
   --text-3xl: 2rem;
 
+  /* Match Tailwind v3 config: these sizes set font-size only and inherit line-height */
+  --text-xs--line-height: initial;
+  --text-sm--line-height: initial;
+  --text-base--line-height: initial;
+  --text-lg--line-height: initial;
+  --text-xl--line-height: initial;
+  --text-2xl--line-height: initial;
+  --text-3xl--line-height: initial;
+
   --tracking-tighter: -0.02em;
 }
 

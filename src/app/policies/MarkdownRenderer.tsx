@@ -20,8 +20,10 @@ const MarkdownRenderer = ({ filePath }: MarkdownRendererProps) => {
   }, [filePath]);
 
   return (
-    <div className="markdown-content">
-      <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdownContent}</ReactMarkdown>
+    <div>
+      <div className="markdown-content">
+        <ReactMarkdown remarkPlugins={[remarkGfm]}>{markdownContent}</ReactMarkdown>
+      </div>
     </div>
   );
 };

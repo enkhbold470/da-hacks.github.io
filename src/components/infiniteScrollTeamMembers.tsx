@@ -106,7 +106,7 @@ export default function InfiniteScrollTeamMembers() {
                 href={person.linkedIn}
                 target="_blank"
                 key={index}
-                className="flex lg:flex-row flex-col items-center space-x-4 px-4 gap-2 hover:scale-110 transition-all duration-300"
+                className="flex lg:flex-row flex-col items-center px-4 gap-2 hover:scale-110 transition-all duration-300"
               >
                 <Avatar className="h-[150px] w-[150px]">
                   <AvatarImage
@@ -121,7 +121,7 @@ export default function InfiniteScrollTeamMembers() {
                       .join("")}
                   </AvatarFallback>
                 </Avatar>
-                <div className="flex flex-col min-w-[100px]">
+                <div className="flex flex-col min-w-[100px] ml-4">
                   <p className="text-xl font-bold">{person.name}</p>
                   <p className="text-sm font-thin opacity-50">{person.role}</p>
                 </div>
