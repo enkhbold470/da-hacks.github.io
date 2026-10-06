@@ -10,7 +10,7 @@ export default function Faq() {
   return (
     <motion.section
       id="faqs"
-      className=" text-gray-100 py-32 min-h-screen bg-gradient-to-b from-da_dark via-da_lighter to-da_dark overflow-hidden"
+      className=" text-gray-100 py-32 min-h-screen bg-linear-to-b from-da_dark via-da_lighter to-da_dark overflow-hidden"
       ref={faqRef} // Attach ref to section for visibility tracking
       initial={{ opacity: 0, y: -50 }}
       animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -50 }} // Animate based on visibility
@@ -29,7 +29,7 @@ export default function Faq() {
               transition={{ duration: 0.7 }}
             >
               <motion.summary
-                className="py-2 outline-none cursor-pointer focus:underline"
+                className="py-2 outline-hidden cursor-pointer focus:underline"
                 initial={{ opacity: 0, y: 50 }}
                 animate={
                   isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }

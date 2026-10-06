@@ -28,7 +28,7 @@ const SubscribeNewsletter: React.FC = () => {
     <>
       <button
         onClick={handleOpen}
-        className="fixed bottom-4 right-4 px-4 py-2 border-2 border-white rounded-md p-2.5 text-da_gold shadow-sm shadow-black focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-500 hover:bg-gray-100 hover:text-[#8B032C]"
+        className="fixed bottom-4 right-4 px-4 py-2 border-2 border-white rounded-md p-2.5 text-da_gold shadow-xs shadow-black focus-visible:outline-solid focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-500 hover:bg-gray-100 hover:text-da_red"
       > 
         Subscribe
       </button>
@@ -46,13 +46,13 @@ const SubscribeNewsletter: React.FC = () => {
             <div className="flex justify-end">
                 <button
                 onClick={handleSubmit}
-                className="bg-da_gold text-da_dark px-4 py-2 rounded mr-2 hover:bg-[#FFD700] hover:text-[#400000]"
+                className="bg-da_gold text-da_dark px-4 py-2 rounded-sm mr-2 hover:bg-[#FFD700] hover:text-[#400000]"
                 >
                 Submit
                 </button>
                 <button
                 onClick={handleClose}
-                className="bg-[#010429] text-da_gold px-4 py-2 rounded hover:bg-[#FF6347] hover:text-[#400000]"
+                className="bg-[#010429] text-da_gold px-4 py-2 rounded-sm hover:bg-[#FF6347] hover:text-[#400000]"
                 >
                 Close
                 </button>

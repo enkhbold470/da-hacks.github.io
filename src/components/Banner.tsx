@@ -13,7 +13,7 @@ const Banner = ({ images, speed = 5000 }: BannerProps) => {
           className="flex"
         >
           {images.map(({ id, image }) => (
-            <div className="flex-shrink-0 px-4" key={id}>
+            <div className="shrink-0 px-4" key={id}>
               <Image
                 src={image}
                 alt={id.toString()}

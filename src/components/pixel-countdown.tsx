@@ -18,11 +18,9 @@ export default function PixelCountdown({ targetDate }: { targetDate: Date }) {
     minutes: 0,
     seconds: 0,
   });
-  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const countDownDate = new Date(targetDate).getTime();
-    setIsLoading(false);
     const timer = setInterval(() => {
       const now = new Date().getTime();
       const distance = countDownDate - now;
@@ -51,13 +49,13 @@ export default function PixelCountdown({ targetDate }: { targetDate: Date }) {
     <h1
       className={`flex flex-col items-center justify-center text-da_lightest lg:text-[7rem] text-[3.4rem] font-bold tracking-widest ${rqndpPro.className}`}
     >
-      <div className="lg:text-[3rem] text-[2rem] tracking-widest font-thin lg:mb-[-2rem] mt-[-1rem] lg:mt-[1rem] mt-[1rem]">
+      <div className="lg:text-[3rem] text-[2rem] tracking-widest font-thin lg:-mb-8 -mt-4 lg:mt-4 mt-4">
         HACKING ENDS IN
       </div>
       {`${formatTime(timeLeft.days)}:${formatTime(timeLeft.hours)}:${formatTime(
         timeLeft.minutes
       )}:${formatTime(timeLeft.seconds)}`}
-      <div className="lg:text-[2rem] text-[1.4rem] tracking-widest font-thin lg:mt-[-2rem] mt-[-1rem]">
+      <div className="lg:text-[2rem] text-[1.4rem] tracking-widest font-thin lg:-mt-8 -mt-4">
         DAYS : HRS : MIN : SEC
       </div>
     </h1>
