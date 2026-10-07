@@ -1,11 +1,7 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    // Every page is static. Exporting skips the server bundle, which Arkor's
-    // adapter currently fails to build (TSCONFIG_ERROR in onBuildComplete).
-    output: 'export',
+import type { NextConfig } from 'next';
+
+const nextConfig: NextConfig = {
     images: {
-        // Static exports have no image optimization server
-        unoptimized: true,
         remotePatterns: [
             {
                 protocol: 'https',
